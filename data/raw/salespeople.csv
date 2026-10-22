@@ -1,0 +1,27 @@
+﻿SalespersonID,SalespersonName,Gender,RegionID,HireDate,SalesTeam
+SP001,Adwoa Ofori,Male,R04,2019-10-29,Retail
+SP002,Esi Appiah,Female,R07,2020-05-25,Retail
+SP003,Akosua Quaye,Female,R10,2018-12-30,Key Accounts
+SP004,Yaw Antwi,Female,R03,2021-11-25,Digital
+SP005,Efua Appiah,Male,R06,2025-01-29,Digital
+SP006,Ama Owusu,Male,R09,2023-07-31,Digital
+SP007,Joseph Owusu,Male,R02,2023-08-05,Digital
+SP008,Linda Tetteh,Male,R05,2021-12-15,Key Accounts
+SP009,Yaw Boateng,Male,R08,2024-09-29,Key Accounts
+SP010,Esi Ofori,Male,R01,2018-04-08,Retail
+SP011,Michael Antwi,Female,R04,2025-10-23,Retail
+SP012,Efua Agyeman,Female,R07,2018-03-17,Retail
+SP013,Esi Quaye,Female,R10,2018-02-18,Digital
+SP014,Yaw Owusu,Female,R03,2022-06-19,Retail
+SP015,Abena Ofori,Female,R06,2022-09-04,Retail
+SP016,Kojo Tetteh,Female,R09,2023-03-20,Digital
+SP017,Michael Asare,Female,R02,2019-12-07,Digital
+SP018,Kofi Boateng,Female,R05,2019-06-22,Key Accounts
+SP019,Joseph Tetteh,Female,R08,2018-01-13,Retail
+SP020,Nana Mensah,Female,R01,2020-01-30,Retail
+SP021,Nana Antwi,Female,R04,2025-03-08,Key Accounts
+SP022,Ama Owusu,Male,R07,2018-09-28,Digital
+SP023,Joseph Quaye,Female,R10,2022-03-22,Retail
+SP024,Michael Asare,Female,R03,2023-05-21,Retail
+SP025,Michael Owusu,Female,R06,2018-02-07,Digital
+SP026,Yaw Appiah,Male,R09,2025-10-10,Retail

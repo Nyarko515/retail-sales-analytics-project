@@ -1,0 +1,17 @@
+﻿StoreID,StoreName,RegionID,City,StoreType,OpeningDate
+ST001,Tema Standard 01,R01,Tema,Standard,2024-07-29
+ST002,Kumasi Standard 02,R02,Kumasi,Standard,2019-10-15
+ST003,Axim Neighbourhood 03,R03,Axim,Neighbourhood,2018-11-01
+ST004,Cape Coast Standard 04,R04,Cape Coast,Standard,2023-02-22
+ST005,Koforidua Standard 05,R05,Koforidua,Standard,2021-02-06
+ST006,Yendi Flagship 06,R06,Yendi,Flagship,2019-06-20
+ST007,Ho Neighbourhood 07,R07,Ho,Neighbourhood,2025-03-30
+ST008,Techiman Neighbourhood 08,R08,Techiman,Neighbourhood,2024-12-05
+ST009,Bolgatanga Standard 09,R09,Bolgatanga,Standard,2023-02-18
+ST010,Bibiani Standard 10,R10,Bibiani,Standard,2021-07-14
+ST011,Tema Standard 11,R01,Tema,Standard,2024-02-25
+ST012,Obuasi Standard 12,R02,Obuasi,Standard,2024-11-09
+ST013,Axim Standard 13,R03,Axim,Standard,2024-11-17
+ST014,Cape Coast Standard 14,R04,Cape Coast,Standard,2018-04-21
+ST015,Nkawkaw Standard 15,R05,Nkawkaw,Standard,2018-07-19
+ST016,Yendi Standard 16,R06,Yendi,Standard,2023-07-07

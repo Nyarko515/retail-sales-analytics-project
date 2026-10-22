@@ -1,0 +1,10 @@
+# Power BI local state and generated model cache
+**/.pbi/localSettings.json
+**/.pbi/editorSettings.json
+**/.pbi/cache.abf
+**/.pbi/Cache.abf
+
+# Temporary operating-system files
+Thumbs.db
+.DS_Store
+~$*

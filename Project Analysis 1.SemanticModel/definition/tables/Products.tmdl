@@ -1,0 +1,127 @@
+table Products
+	lineageTag: 20a66f5a-4fb7-460b-a42a-4f296fbcdefe
+
+	column ProductID
+		dataType: string
+		lineageTag: 271b1008-6d1b-42c0-9b0e-de3d8527fd46
+		summarizeBy: none
+		sourceColumn: ProductID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductName
+		dataType: string
+		lineageTag: f70198de-3846-4f71-ae24-6861360f3e30
+		summarizeBy: none
+		sourceColumn: ProductName
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Category
+		dataType: string
+		lineageTag: 5199a019-9266-4c66-8860-bd759e1af8b0
+		summarizeBy: none
+		sourceColumn: Category
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column SubCategory
+		dataType: string
+		lineageTag: ba80955a-3f06-46be-92e7-d7a5c071b336
+		summarizeBy: none
+		sourceColumn: SubCategory
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Brand
+		dataType: string
+		lineageTag: 65d896b6-1840-4841-86ce-6910ef7dc086
+		summarizeBy: none
+		sourceColumn: Brand
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Supplier
+		dataType: string
+		lineageTag: 71fe9746-6132-42dd-9045-5faf73486ff4
+		summarizeBy: none
+		sourceColumn: Supplier
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column StandardCost
+		dataType: double
+		lineageTag: efab8f66-fe37-42e2-8c83-b78fb29a725c
+		summarizeBy: sum
+		sourceColumn: StandardCost
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ListPrice
+		dataType: double
+		lineageTag: 56d73aed-79a0-4334-8055-0b5d008d4752
+		summarizeBy: sum
+		sourceColumn: ListPrice
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ProductLaunchDate
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: a772296b-913c-4abd-aee6-2f5e21f7fc3f
+		summarizeBy: none
+		sourceColumn: ProductLaunchDate
+
+		variation Variation
+			isDefault
+			relationship: c33cf668-8aae-43e3-8209-35e36d07f492
+			defaultHierarchy: LocalDateTable_6fea03bb-7e89-48a5-8c32-d346c44b54fa.'Date Hierarchy'
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column ProductStatus
+		dataType: string
+		lineageTag: 54eec200-17f9-462d-ba49-959a53e7efb1
+		summarizeBy: none
+		sourceColumn: ProductStatus
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Products = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents(pDataFolder & "\products.csv"), [Delimiter = ",", Columns = 10, Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+				  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"ProductID", type text}, {"ProductName", type text}, {"Category", type text}, {"SubCategory", type text}, {"Brand", type text}, {"Supplier", type text}, {"StandardCost", type number}, {"ListPrice", type number}, {"ProductLaunchDate", type date}, {"ProductStatus", type text}}, "en-US")
+				in
+				  #"Changed column type"
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,5 @@
+expression pDataFolder = "C:\Users\hi\Desktop\retail-sales-analytics 222\retail-sales-analytics project\data\raw" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 9af8f822-569d-4fe7-9b97-dadfc8a04a02
+
+	annotation PBI_ResultType = Text
+

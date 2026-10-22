@@ -1,0 +1,75 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "b27a9b3f69cc74217e34",
+  "position": {
+    "x": 1331.5854738706821,
+    "y": 540.79716563330385,
+    "z": 11,
+    "height": 472.77236492471212,
+    "width": 571.40832595217012,
+    "tabOrder": 11
+  },
+  "visual": {
+    "visualType": "clusteredBarChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Returns"
+                    }
+                  },
+                  "Property": "ReturnReason"
+                }
+              },
+              "queryRef": "Returns.ReturnReason",
+              "nativeQueryRef": "ReturnReason",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Units Returned"
+                }
+              },
+              "queryRef": "_Measures.Units Returned",
+              "nativeQueryRef": "Units Returned"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "_Measures"
+                  }
+                },
+                "Property": "Units Returned"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

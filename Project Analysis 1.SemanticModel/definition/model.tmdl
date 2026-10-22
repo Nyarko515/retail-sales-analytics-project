@@ -1,0 +1,34 @@
+model Model
+	culture: en-GB
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-AS
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["Channels","Returns","Sales","Customers","Products","Regions","Salespeople","Stores","_Measures","pDataFolder"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Channels
+ref table Returns
+ref table DateTableTemplate_2bb66ddd-32aa-46d9-8a88-a267e7e5202d
+ref table Sales
+ref table Customers
+ref table LocalDateTable_8837f2f7-0e96-43bc-b1d6-e0811da7c5c5
+ref table Products
+ref table LocalDateTable_6fea03bb-7e89-48a5-8c32-d346c44b54fa
+ref table Regions
+ref table Salespeople
+ref table LocalDateTable_8c904dac-841c-4552-ad6d-83833934d277
+ref table Stores
+ref table LocalDateTable_016d8e6c-4a0d-43ff-ae39-562695f39236
+ref table LocalDateTable_ce978076-343d-4746-9911-098524545b07
+ref table Dim_Date
+ref table _Measures
+
+ref cultureInfo en-GB
+

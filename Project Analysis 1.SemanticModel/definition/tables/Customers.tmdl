@@ -1,0 +1,127 @@
+table Customers
+	lineageTag: 68ca39e7-21d9-4238-82bf-1d82b365af68
+
+	column CustomerID
+		dataType: string
+		lineageTag: 3187958c-f74c-416f-b0a1-e9d35229181a
+		summarizeBy: none
+		sourceColumn: CustomerID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column CustomerName
+		dataType: string
+		lineageTag: f4559fd8-4263-44ed-aebb-6ea19c11ff8e
+		summarizeBy: none
+		sourceColumn: CustomerName
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Gender
+		dataType: string
+		lineageTag: 59e52dde-88fb-4462-9a3a-5694df9fd12e
+		summarizeBy: none
+		sourceColumn: Gender
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column AgeGroup
+		dataType: string
+		lineageTag: 4cf66f07-e096-497e-a1ce-a027ccf281f9
+		summarizeBy: none
+		sourceColumn: AgeGroup
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column RegionID
+		dataType: string
+		lineageTag: 669f32cc-4681-4e71-8d54-923854eb477f
+		summarizeBy: none
+		sourceColumn: RegionID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column CustomerSegment
+		dataType: string
+		lineageTag: 2d34ca3f-a469-4d54-98aa-205892e377a2
+		summarizeBy: none
+		sourceColumn: CustomerSegment
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column RegistrationDate
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 0cfdab6e-ea1d-4991-a0af-faf74cb6b763
+		summarizeBy: none
+		sourceColumn: RegistrationDate
+
+		variation Variation
+			isDefault
+			relationship: ec358752-5787-456d-9dee-d3767a756825
+			defaultHierarchy: LocalDateTable_8837f2f7-0e96-43bc-b1d6-e0811da7c5c5.'Date Hierarchy'
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column GenderClean
+		dataType: string
+		lineageTag: bd03614c-eb42-4973-82bd-87794a18567c
+		summarizeBy: none
+		sourceColumn: GenderClean
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column AgeGroupClean
+		dataType: string
+		lineageTag: dee4c7e5-9b71-4cec-994c-9c363ed337ed
+		summarizeBy: none
+		sourceColumn: AgeGroupClean
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Customers = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents(pDataFolder & "\customers.csv"), [Delimiter = ",", Columns = 7, Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+				  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"CustomerID", type text}, {"CustomerName", type text}, {"Gender", type text}, {"AgeGroup", type text}, {"RegionID", type text}, {"CustomerSegment", type text}, {"RegistrationDate", type date}}, "en-US"),
+				  #"Trimmed text" = Table.TransformColumns(#"Changed column type", {{"CustomerName", each Text.Trim(_), type nullable text}}),
+				  #"Cleaned text" = Table.TransformColumns(#"Trimmed text", {{"CustomerName", each Text.Clean(_), type nullable text}}),
+				  #"Capitalized each word" = Table.TransformColumns(#"Cleaned text", {{"Gender", each Text.Proper(_), type nullable text}}),
+				  #"Trimmed text 1" = Table.TransformColumns(#"Capitalized each word", {{"Gender", each Text.Trim(_), type nullable text}, {"CustomerSegment", each Text.Trim(_), type nullable text}}),
+				  #"Cleaned text 1" = Table.TransformColumns(#"Trimmed text 1", {{"Gender", each Text.Clean(_), type nullable text}, {"CustomerSegment", each Text.Clean(_), type nullable text}}),
+				  #"Capitalized each word 1" = Table.TransformColumns(#"Cleaned text 1", {{"CustomerSegment", each Text.Proper(_), type nullable text}}),
+				  #"Added custom" = Table.AddColumn(#"Capitalized each word 1", "Custom", each if [Gender] = null or Text.Trim([Gender]) = ""
+				then "Not applicable (business)"
+				else [Gender]),
+				  #"Changed column type 1" = Table.TransformColumnTypes(#"Added custom", {{"Custom", type text}}),
+				  #"Renamed columns" = Table.RenameColumns(#"Changed column type 1", {{"Custom", "GenderClean"}}),
+				  #"Added custom 1" = Table.AddColumn(#"Renamed columns", "AgeGroupClean", each if [AgeGroup] = null or Text.Trim([AgeGroup]) = ""
+				then "Not applicable (business)"
+				else [AgeGroup])
+				in
+				  #"Added custom 1"
+
+	annotation PBI_ResultType = Table
+

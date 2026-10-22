@@ -1,0 +1,59 @@
+relationship AutoDetected_42533416-e409-459f-9222-7e5284fdfc35
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: Returns.OrderID
+	toColumn: Sales.OrderID
+
+relationship ec358752-5787-456d-9dee-d3767a756825
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Customers.RegistrationDate
+	toColumn: LocalDateTable_8837f2f7-0e96-43bc-b1d6-e0811da7c5c5.Date
+
+relationship AutoDetected_d66aa624-e48d-4a56-b295-52c2dbefc79a
+	fromColumn: Sales.CustomerID
+	toColumn: Customers.CustomerID
+
+relationship c33cf668-8aae-43e3-8209-35e36d07f492
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Products.ProductLaunchDate
+	toColumn: LocalDateTable_6fea03bb-7e89-48a5-8c32-d346c44b54fa.Date
+
+relationship AutoDetected_f7f7d69e-779c-41f1-a453-65a0cf2c37f3
+	fromColumn: Sales.ProductID
+	toColumn: Products.ProductID
+
+relationship bcea8b52-47c7-4c5d-bb39-3797d68f34ac
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Salespeople.HireDate
+	toColumn: LocalDateTable_8c904dac-841c-4552-ad6d-83833934d277.Date
+
+relationship AutoDetected_691a1304-7880-4328-8b42-88a2dd046938
+	fromColumn: Sales.SalespersonID
+	toColumn: Salespeople.SalespersonID
+
+relationship e2e7b8c3-694d-4885-99c3-baf99d0d5a8f
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Stores.OpeningDate
+	toColumn: LocalDateTable_016d8e6c-4a0d-43ff-ae39-562695f39236.Date
+
+relationship AutoDetected_32fb19d8-38ae-42a1-885d-52d3fd14df51
+	fromColumn: Sales.StoreID
+	toColumn: Stores.StoreID
+
+relationship AutoDetected_2486678e-7356-41af-b6d1-a6df721282f1
+	fromColumn: Sales.ChannelID
+	toColumn: Channels.ChannelID
+
+relationship b2352db1-098d-4b86-866a-5193ee12e356
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Returns.ReturnDate
+	toColumn: LocalDateTable_ce978076-343d-4746-9911-098524545b07.Date
+
+relationship AutoDetected_8db387ff-95d9-4309-a40a-b1f80cbe3d2e
+	fromColumn: Sales.RegionID
+	toColumn: Regions.RegionID
+
+relationship ba23d01f-651a-9a96-e660-40bc12ac3268
+	fromColumn: Sales.OrderDate
+	toColumn: Dim_Date.Date
+

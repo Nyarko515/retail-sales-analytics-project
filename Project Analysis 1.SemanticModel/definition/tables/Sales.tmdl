@@ -1,0 +1,306 @@
+table Sales
+	lineageTag: 1238880d-b921-4861-ad0c-3d56ec95e3e5
+
+	column OrderID
+		dataType: string
+		lineageTag: c0ff4ab2-249e-4e9a-a73f-ffcd085c358a
+		summarizeBy: none
+		sourceColumn: OrderID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column CustomerID
+		dataType: string
+		lineageTag: 2949d591-5d4d-40ec-b60b-7c203c3eed37
+		summarizeBy: none
+		sourceColumn: CustomerID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductID
+		dataType: string
+		lineageTag: 49777c11-b932-447c-b6c1-2089a2c872a4
+		summarizeBy: none
+		sourceColumn: ProductID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column SalespersonID
+		dataType: string
+		lineageTag: 3576504b-0f3f-40c6-9de3-8c5bfcfac940
+		summarizeBy: none
+		sourceColumn: SalespersonID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column StoreID
+		dataType: string
+		lineageTag: e86d89f2-a493-41ce-963f-4b17ff5d8901
+		summarizeBy: none
+		sourceColumn: StoreID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column ChannelID
+		dataType: string
+		lineageTag: 008382ff-0de4-43d0-92ca-451586849a69
+		summarizeBy: none
+		sourceColumn: ChannelID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quantity
+		dataType: int64
+		formatString: 0
+		lineageTag: 3e8f8f09-f828-4cf2-8741-5638e9a2c05c
+		summarizeBy: sum
+		sourceColumn: Quantity
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column UnitPrice
+		dataType: double
+		lineageTag: 3ce883fe-4d8d-4f85-bffd-57434f33afc4
+		summarizeBy: sum
+		sourceColumn: UnitPrice
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Discount
+		dataType: double
+		lineageTag: 3ee4f71e-e635-41e7-9f7a-24ac535e204c
+		summarizeBy: sum
+		sourceColumn: Discount
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column UnitCost
+		dataType: double
+		lineageTag: f56cfc1d-6dfe-49c9-bccc-3441a0fb0bc4
+		summarizeBy: sum
+		sourceColumn: UnitCost
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column PaymentMethod
+		dataType: string
+		lineageTag: a7df116a-78b0-4c23-a46c-cb577d0d2780
+		summarizeBy: none
+		sourceColumn: PaymentMethod
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column OrderStatus
+		dataType: string
+		lineageTag: 1d110581-ec3f-464e-aad0-78a7958866a4
+		summarizeBy: none
+		sourceColumn: OrderStatus
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column OrderDate
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 010d7416-17bd-4a42-ac31-ddb962f55bed
+		summarizeBy: none
+		sourceColumn: OrderDate
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column RegionID
+		dataType: string
+		lineageTag: d457b879-b49d-4942-a405-361fc2133121
+		summarizeBy: none
+		sourceColumn: RegionID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column DiscountFlag
+		dataType: string
+		lineageTag: 0ba9cb30-ddb3-4c41-ba03-6432c73929ae
+		summarizeBy: none
+		sourceColumn: DiscountFlag
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column DiscountClean
+		dataType: double
+		lineageTag: a1e6a1fb-fa69-47be-9134-9f0d49d54c5a
+		summarizeBy: sum
+		sourceColumn: DiscountClean
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column UnitCostClean
+		dataType: double
+		lineageTag: e23257b2-142e-4385-9c1a-8bab338483a5
+		summarizeBy: sum
+		sourceColumn: UnitCostClean
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column GrossSales
+		dataType: double
+		lineageTag: 7972b576-ab4a-4649-9a1d-115dac2ec30d
+		summarizeBy: sum
+		sourceColumn: GrossSales
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column DiscountAmount
+		dataType: double
+		lineageTag: 2cec57d3-9726-45c7-af30-555d6ade8e65
+		summarizeBy: sum
+		sourceColumn: DiscountAmount
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column NetRevenue
+		dataType: double
+		lineageTag: b89ddd0d-2edc-438d-a1c6-b884245ba13e
+		summarizeBy: sum
+		sourceColumn: NetRevenue
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column TotalCost
+		dataType: double
+		lineageTag: 8f5ce41e-3a81-4398-91e0-e568b955629f
+		summarizeBy: sum
+		sourceColumn: TotalCost
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Profit
+		dataType: double
+		lineageTag: 5dcee232-c569-410b-b2f5-e53ac721b080
+		summarizeBy: sum
+		sourceColumn: Profit
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column NegativeMarginFlag
+		dataType: string
+		lineageTag: d349155c-3e07-4653-ad29-ce0a2e3e63ba
+		summarizeBy: none
+		sourceColumn: NegativeMarginFlag
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Sales = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents(pDataFolder & "\sales_transactions.csv"), [Delimiter = ",", Columns = 14, Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+				  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				  #"Removed duplicates" = Table.Distinct(#"Promoted headers", {"OrderID", "OrderDate", "CustomerID", "ProductID", "SalespersonID", "RegionID", "StoreID", "ChannelID", "Quantity", "UnitPrice", "Discount", "UnitCost", "PaymentMethod", "OrderStatus"}),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Removed duplicates", {{"OrderID", type text}, {"OrderDate", type text}, {"CustomerID", type text}, {"ProductID", type text}, {"SalespersonID", type text}, {"RegionID", type text}, {"StoreID", type text}, {"ChannelID", type text}, {"Quantity", Int64.Type}, {"UnitPrice", type number}, {"Discount", type number}, {"UnitCost", type number}, {"PaymentMethod", type text}, {"OrderStatus", type text}}, "en-US"),
+				  #"Added custom" = Table.AddColumn(#"Changed column type", "OrderDateClean", each if Text.Contains([OrderDate], "/")
+				then Date.FromText([OrderDate], [Format="dd/MM/yyyy", Culture="en-GB"])
+				else Date.FromText([OrderDate], [Format="yyyy-MM-dd"])),
+				  #"Removed columns" = Table.RemoveColumns(#"Added custom", {"OrderDate"}),
+				  #"Renamed columns" = Table.RenameColumns(#"Removed columns", {{"OrderDateClean", "OrderDate"}}),
+				  #"Reordered columns" = Table.ReorderColumns(#"Renamed columns", {"OrderID", "OrderDate", "CustomerID", "ProductID", "SalespersonID", "RegionID", "StoreID", "ChannelID", "Quantity", "UnitPrice", "Discount", "UnitCost", "PaymentMethod", "OrderStatus"}),
+				  #"Changed column type 1" = Table.TransformColumnTypes(#"Reordered columns", {{"OrderDate", type date}}),
+				  #"Merged queries" = Table.NestedJoin(#"Changed column type 1", {"StoreID"}, Stores, {"StoreID"}, "Stores", JoinKind.LeftOuter),
+				  #"Expanded Stores" = Table.ExpandTableColumn(#"Merged queries", "Stores", {"RegionID"}, {"RegionID.1"}),
+				  #"Removed columns 1" = Table.RemoveColumns(#"Expanded Stores", {"RegionID"}),
+				  #"Renamed columns 1" = Table.RenameColumns(#"Removed columns 1", {{"RegionID.1", "RegionID"}}),
+				  #"Reordered columns 1" = Table.ReorderColumns(#"Renamed columns 1", {"OrderID", "OrderDate", "CustomerID", "ProductID", "SalespersonID", "RegionID", "StoreID", "ChannelID", "Quantity", "UnitPrice", "Discount", "UnitCost", "PaymentMethod", "OrderStatus"}),
+				  #"Added custom 1" = Table.AddColumn(#"Reordered columns 1", "DiscountFlag", each if [Discount] = null then "blank"
+				else if [Discount] > 1 then "invalid > 100%"
+				else if [Discount] >= 0.5 then "High (≥50%)"
+				else "Normal"),
+				  #"Added custom 2" = Table.AddColumn(#"Added custom 1", "DiscountClean", each if [Discount] = null then 0
+				else if [Discount] > 1 then 0
+				else [Discount]),
+				  #"Merged queries 1" = Table.NestedJoin(#"Added custom 2", {"ProductID"}, Products, {"ProductID"}, "Products", JoinKind.LeftOuter),
+				  #"Expanded Products" = Table.ExpandTableColumn(#"Merged queries 1", "Products", {"StandardCost"}, {"StandardCost"}),
+				  #"Added custom 3" = Table.AddColumn(#"Expanded Products", "UnitCostClean", each if [UnitCost] = null then [StandardCost] else [UnitCost]),
+				  #"Removed columns 2" = Table.RemoveColumns(#"Added custom 3", {"StandardCost"}),
+				  #"Filtered rows" = Table.SelectRows(#"Removed columns 2", each ([ProductID] <> "P999")),
+				  #"Trimmed text" = Table.TransformColumns(#"Filtered rows", {{"OrderID", each Text.Trim(_), type nullable text}, {"CustomerID", each Text.Trim(_), type nullable text}, {"ProductID", each Text.Trim(_), type nullable text}, {"SalespersonID", each Text.Trim(_), type nullable text}, {"RegionID", each Text.Trim(_), type nullable text}, {"StoreID", each Text.Trim(_), type nullable text}, {"ChannelID", each Text.Trim(_), type nullable text}, {"PaymentMethod", each Text.Trim(_), type nullable text}, {"OrderStatus", each Text.Trim(_), type nullable text}}),
+				  #"Cleaned text" = Table.TransformColumns(#"Trimmed text", {{"OrderID", each Text.Clean(_), type nullable text}, {"CustomerID", each Text.Clean(_), type nullable text}, {"ProductID", each Text.Clean(_), type nullable text}, {"SalespersonID", each Text.Clean(_), type nullable text}, {"RegionID", each Text.Clean(_), type nullable text}, {"StoreID", each Text.Clean(_), type nullable text}, {"ChannelID", each Text.Clean(_), type nullable text}, {"PaymentMethod", each Text.Clean(_), type nullable text}, {"OrderStatus", each Text.Clean(_), type nullable text}}),
+				  #"Changed column type 2" = Table.TransformColumnTypes(#"Cleaned text", {{"UnitCostClean", type number}, {"DiscountClean", type number}}),
+				  #"Added custom 4" = Table.AddColumn(#"Changed column type 2", "GrossSales", each [Quantity] * [UnitPrice]),
+				  #"Changed column type 3" = Table.TransformColumnTypes(#"Added custom 4", {{"GrossSales", type number}}),
+				  #"Added custom 5" = Table.AddColumn(#"Changed column type 3", "DiscountAmount", each [GrossSales] * [DiscountClean]),
+				  #"Changed column type 4" = Table.TransformColumnTypes(#"Added custom 5", {{"DiscountAmount", type number}}),
+				  #"Added custom 6" = Table.AddColumn(#"Changed column type 4", "NetRevenue", each [GrossSales] - [DiscountAmount]),
+				  #"Added custom 7" = Table.AddColumn(#"Added custom 6", "TotalCost", each [Quantity] * [UnitCostClean]),
+				  #"Added custom 8" = Table.AddColumn(#"Added custom 7", "Profit", each [NetRevenue] - [TotalCost]),
+				  #"Changed column type 5" = Table.TransformColumnTypes(#"Added custom 8", {{"NetRevenue", type number}, {"TotalCost", type number}, {"Profit", type number}}),
+				  #"Added custom 9" = Table.AddColumn(#"Changed column type 5", "NegativeMarginFlag", each if [Profit] < 0 then 1 else 0)
+				in
+				  #"Added custom 9"
+
+	annotation PBI_ResultType = Table
+

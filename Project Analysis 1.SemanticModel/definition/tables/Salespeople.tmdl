@@ -1,0 +1,83 @@
+table Salespeople
+	lineageTag: d1f0be94-67c7-4694-9202-b877173bb04d
+
+	column SalespersonID
+		dataType: string
+		lineageTag: 2b6a91f7-8800-4eef-83e6-434cb9cf09bf
+		summarizeBy: none
+		sourceColumn: SalespersonID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column SalespersonName
+		dataType: string
+		lineageTag: b0e56910-079a-4a32-9939-6954b6b55051
+		summarizeBy: none
+		sourceColumn: SalespersonName
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Gender
+		dataType: string
+		lineageTag: 84178b4a-a2b4-49df-8fbc-9b2fd64c3654
+		summarizeBy: none
+		sourceColumn: Gender
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column RegionID
+		dataType: string
+		lineageTag: 880fce17-f762-4a4f-a0d9-00e31b060d0f
+		summarizeBy: none
+		sourceColumn: RegionID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column HireDate
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: ddfd8e2b-c743-4744-b46a-22324f473c91
+		summarizeBy: none
+		sourceColumn: HireDate
+
+		variation Variation
+			isDefault
+			relationship: bcea8b52-47c7-4c5d-bb39-3797d68f34ac
+			defaultHierarchy: LocalDateTable_8c904dac-841c-4552-ad6d-83833934d277.'Date Hierarchy'
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column SalesTeam
+		dataType: string
+		lineageTag: f2992273-09a5-45f5-b60a-54f8423bc0ed
+		summarizeBy: none
+		sourceColumn: SalesTeam
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Salespeople = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents(pDataFolder & "\salespeople.csv"), [Delimiter = ",", Columns = 6, Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+				  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"SalespersonID", type text}, {"SalespersonName", type text}, {"Gender", type text}, {"RegionID", type text}, {"HireDate", type date}, {"SalesTeam", type text}}, "en-US")
+				in
+				  #"Changed column type"
+
+	annotation PBI_ResultType = Table
+

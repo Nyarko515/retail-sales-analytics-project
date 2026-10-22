@@ -1,0 +1,83 @@
+table Stores
+	lineageTag: 49f50e9c-62a7-4792-b23f-5bc25882ac2f
+
+	column StoreID
+		dataType: string
+		lineageTag: 41eeb4eb-dd66-4be0-b237-46ed45fd9b48
+		summarizeBy: none
+		sourceColumn: StoreID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column StoreName
+		dataType: string
+		lineageTag: 50089430-3af2-422c-b3a3-f8f48872392c
+		summarizeBy: none
+		sourceColumn: StoreName
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column RegionID
+		dataType: string
+		lineageTag: 58c2f885-9814-435f-adc1-07dd209e5d63
+		summarizeBy: none
+		sourceColumn: RegionID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column City
+		dataType: string
+		lineageTag: f053b95d-c034-4c2d-a082-546a4f44bc80
+		summarizeBy: none
+		sourceColumn: City
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column StoreType
+		dataType: string
+		lineageTag: 2f1996f7-147f-4df7-a85e-ab42a8aa6a29
+		summarizeBy: none
+		sourceColumn: StoreType
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column OpeningDate
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: c3921bf3-d61b-449c-b972-a309fd8100bb
+		summarizeBy: none
+		sourceColumn: OpeningDate
+
+		variation Variation
+			isDefault
+			relationship: e2e7b8c3-694d-4885-99c3-baf99d0d5a8f
+			defaultHierarchy: LocalDateTable_016d8e6c-4a0d-43ff-ae39-562695f39236.'Date Hierarchy'
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	partition Stores = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents(pDataFolder & "\stores.csv"), [Delimiter = ",", Columns = 6, Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+				  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"StoreID", type text}, {"StoreName", type text}, {"RegionID", type text}, {"City", type text}, {"StoreType", type text}, {"OpeningDate", type date}}, "en-US")
+				in
+				  #"Changed column type"
+
+	annotation PBI_ResultType = Table
+

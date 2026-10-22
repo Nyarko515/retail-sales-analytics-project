@@ -1,0 +1,133 @@
+table _Measures
+	lineageTag: c07a5fa5-ed4c-43dc-bf53-1c707eb98a19
+
+	measure Revenue =
+			
+			CALCULATE(
+			    SUM(Sales[NetRevenue]),
+			    Sales[OrderStatus] = "Completed"
+			)
+		formatString: "GH₵"#,0.00;-"GH₵"#,0.00;"GH₵"#,0.00
+		lineageTag: 9f346260-883a-48b9-b5a1-dc04fb339997
+
+		annotation PBI_FormatHint = {"currencyCulture":"ak-GH"}
+
+	measure 'Total Cost' =
+			
+			CALCULATE(
+			    SUM(Sales[TotalCost]),
+			    Sales[OrderStatus] = "Completed"
+			)
+		formatString: "GH₵"#,0.00;-"GH₵"#,0.00;"GH₵"#,0.00
+		lineageTag: 42ec4c6f-7a71-4340-a4b6-0837188bce12
+
+		annotation PBI_FormatHint = {"currencyCulture":"ak-GH"}
+
+	measure Profit = [Revenue] - [Total Cost]
+		formatString: "GH₵"#,0.00;-"GH₵"#,0.00;"GH₵"#,0.00
+		lineageTag: 2e75f15e-6869-407d-9412-83880c0a26d8
+
+		annotation PBI_FormatHint = {"currencyCulture":"ak-GH"}
+
+	measure 'Profit Margin %' = DIVIDE([Profit],[Revenue])
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 5456c587-75d4-4e65-95a5-7c7d5f02a353
+
+	measure Orders = CALCULATE(DISTINCTCOUNT(Sales[OrderID]), Sales[OrderStatus]="Completed")
+		formatString: 0
+		lineageTag: 1bb64022-7369-4b6a-8c57-784bd11fa459
+
+	measure 'Quantity Sold' = CALCULATE(SUM(Sales[Quantity]), Sales[OrderStatus]="Completed")
+		formatString: 0
+		lineageTag: fae4a66f-21c2-455e-a742-1b89068fda6a
+
+	measure 'Avg Order Value' = DIVIDE([Revenue],[Orders])
+		formatString: "GH₵"#,0.00;-"GH₵"#,0.00;"GH₵"#,0.00
+		lineageTag: 5adbdc69-804c-4ce4-94da-f5f5151f598e
+
+		annotation PBI_FormatHint = {"currencyCulture":"ak-GH"}
+
+	measure 'Avg Discount %' =
+			
+			DIVIDE(
+			    CALCULATE(SUM(Sales[DiscountAmount]), Sales[OrderStatus] = "Completed"),
+			    CALCULATE(SUM(Sales[GrossSales]),     Sales[OrderStatus] = "Completed")
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 6ed7642c-c27c-4a7f-a2da-a599fb5371dc
+
+	measure 'Revenue LY' = CALCULATE([Revenue], SAMEPERIODLASTYEAR(Dim_Date[Date]))
+		formatString: "GH₵"#,0.00;-"GH₵"#,0.00;"GH₵"#,0.00
+		lineageTag: 9001d926-0f97-48fb-a70b-b1f14d356a53
+
+		annotation PBI_FormatHint = {"currencyCulture":"ak-GH"}
+
+	measure 'Revenue YoY %' = DIVIDE([Revenue]-[Revenue LY],[Revenue LY])
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 0856f027-8bda-4885-8197-a025a718a68b
+
+	measure 'Cancelled Orders' = CALCULATE(DISTINCTCOUNT(Sales[OrderID]), Sales[OrderStatus]="Cancelled")
+		formatString: 0
+		lineageTag: 983b7617-2ae0-46f7-8a82-a590e4c59b03
+
+	measure 'Pending Orders' = CALCULATE(DISTINCTCOUNT(Sales[OrderID]), Sales[OrderStatus]="Pending")
+		formatString: 0
+		lineageTag: a37459dc-4716-4d8b-836a-7c1793b3e18d
+
+	measure 'Cancel Rate %' = DIVIDE([Cancelled Orders], DISTINCTCOUNT(Sales[OrderID]))
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: f3d6f063-0678-49cd-bd0a-8a908290c647
+
+	measure 'Orders With Return' = CALCULATE(DISTINCTCOUNT(Returns[OrderID]), Sales[OrderStatus]="Completed")
+		formatString: 0
+		lineageTag: 148b3ac7-6f1c-4472-bfb2-c1adee37f197
+
+	measure 'Return Rate %' = DIVIDE([Orders With Return],[Orders])
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 09574069-416b-4edc-9b00-6abda6fe9636
+
+	measure 'Units Returned' = SUM(Returns[QuantityReturnedClean])
+		formatString: 0
+		lineageTag: 55bed55a-0aa4-4898-b6ac-9b0cf772c00b
+
+	measure 'Revenue Share %' = ```
+			DIVIDE([Revenue], CALCULATE([Revenue], ALL(Products)))   
+			```
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: b627ce51-4f2c-4ce7-afc1-75843bd1f7fd
+
+	measure 'Active Customers' = CALCULATE(DISTINCTCOUNT(Sales[CustomerID]), Sales[OrderStatus]="Completed")
+		formatString: 0
+		lineageTag: 9135f12a-407e-4415-9001-74dcdf42a658
+
+	measure 'Repeat Customers' =
+			
+			COUNTROWS(FILTER(VALUES(Sales[CustomerID]), [Orders] > 1))
+		formatString: 0
+		lineageTag: c9d5936a-d0cc-4514-bd0e-c81921afbe4e
+
+	measure 'Repeat Rate %' = DIVIDE([Repeat Customers],[Active Customers])
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: c4a1a69e-7e69-4258-b83c-edb5961bbfdc
+
+	measure 'One-Time Customers' = [Active Customers] - [Repeat Customers]
+		formatString: 0
+		lineageTag: 606306d3-6b8a-4443-b193-20277025db1b
+
+	measure 'Orders per Customer' = DIVIDE([Orders], [Active Customers])
+		lineageTag: 8ca3af16-85f7-47b9-9b5d-0bc9e2d8fb65
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition _Measures = m
+		mode: import
+		source =
+				let
+				  Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i45WMlSKjQUA", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Dummy = _t]),
+				  #"Changed column type" = Table.TransformColumnTypes(Source, {{"Dummy", Int64.Type}}, "en-US"),
+				    #"Removed Columns" = Table.RemoveColumns(#"Changed column type",{"Dummy"})
+				in
+				  #"Removed Columns"
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,34 @@
+table Channels
+	lineageTag: f8851f06-478a-4fbb-a589-eca9c1c38680
+
+	column ChannelID
+		dataType: string
+		lineageTag: d53e1baa-9b3b-4390-8ac3-dffd1e2abf3d
+		summarizeBy: none
+		sourceColumn: ChannelID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column ChannelName
+		dataType: string
+		lineageTag: 98192470-e157-40bd-bc17-2321a25763f3
+		summarizeBy: none
+		sourceColumn: ChannelName
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Channels = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents(pDataFolder & "\channels.csv"), [Delimiter = ",", Columns = 2, Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+				  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true])
+				in
+				  #"Promoted headers"
+
+	annotation PBI_ResultType = Table
+

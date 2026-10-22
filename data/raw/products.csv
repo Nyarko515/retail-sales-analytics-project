@@ -1,0 +1,43 @@
+﻿ProductID,ProductName,Category,SubCategory,Brand,Supplier,StandardCost,ListPrice,ProductLaunchDate,ProductStatus
+P001,Power bank,Mobile Accessories,Chargers,Apex Essentials,Kumasi Wholesale Hub,750.93,946.86,2026-06-12,New
+P002,USB-C charger,Mobile Accessories,Chargers,Brightline,Accra Consumer Imports,484.11,687.75,2024-05-19,Active
+P003,Wireless earbuds,Mobile Accessories,Chargers,VoltaHome,Kumasi Wholesale Hub,461.99,659.69,2025-01-16,Active
+P004,Phone case,Mobile Accessories,Chargers,Daystar,Golden Coast Trading,819.53,1445.53,2025-01-14,Active
+P005,Screen protector,Mobile Accessories,Chargers,TekPro,NorthStar Distribution,612.44,1138.05,2025-04-15,Active
+P006,Bluetooth speaker,Mobile Accessories,Chargers,Apex Essentials,NorthStar Distribution,458.57,812.95,2026-08-22,New
+P007,USB-C cable,Mobile Accessories,Cables,Kora,Meridian Supply Co.,76.97,138.9,2024-06-06,Discontinued
+P008,Lightning cable,Mobile Accessories,Cables,Mira,Accra Consumer Imports,499.88,1000.87,2023-04-27,Active
+P009,Car phone mount,Mobile Accessories,Cables,Kora,Meridian Supply Co.,282.18,472.26,2025-02-09,Active
+P010,Portable radio,Small Electronics,Audio,Kora,NorthStar Distribution,395.72,598.34,2026-07-03,New
+P011,Smart watch,Small Electronics,Audio,TekPro,NorthStar Distribution,41.09,53.11,2026-03-06,New
+P012,Desk fan,Small Electronics,Audio,Mira,Golden Coast Trading,624.38,865.14,2026-11-23,New
+P013,Electric kettle,Small Electronics,Audio,Brightline,Golden Coast Trading,820.14,1541.56,2026-05-08,New
+P014,Wireless mouse,Small Electronics,Computing,Apex Essentials,NorthStar Distribution,218.7,386.39,2025-05-09,Active
+P015,Keyboard,Small Electronics,Computing,Nexa,Kumasi Wholesale Hub,443.26,724.66,2025-07-21,Active
+P016,USB drive,Small Electronics,Computing,Brightline,Golden Coast Trading,244.83,481.22,2026-01-08,New
+P017,Wi-Fi router,Small Electronics,Computing,Nexa,Golden Coast Trading,727.44,987.41,2025-01-20,Active
+P018,Rice cooker,Home Appliances,Kitchen,Mira,Accra Consumer Imports,738.93,961.03,2025-04-30,Discontinued
+P019,Blender,Home Appliances,Kitchen,Nexa,Accra Consumer Imports,222.93,277.08,2026-04-19,New
+P020,Microwave oven,Home Appliances,Kitchen,TekPro,Accra Consumer Imports,485.61,665.63,2025-04-03,Active
+P021,Toaster,Home Appliances,Kitchen,Daystar,NorthStar Distribution,559.34,715.26,2024-03-08,Active
+P022,Air fryer,Home Appliances,Kitchen,Mira,Golden Coast Trading,467.71,571.74,2024-03-30,Active
+P023,Vacuum cleaner,Home Appliances,Cleaning,Mira,NorthStar Distribution,694.7,1187.53,2026-04-01,New
+P024,Steam iron,Home Appliances,Cleaning,Nexa,Kumasi Wholesale Hub,195.74,258.44,2024-08-22,Active
+P025,A4 paper pack,Office Supplies,Stationery,Kora,Meridian Supply Co.,115.42,155.57,2026-12-11,New
+P026,Ink cartridge,Office Supplies,Stationery,Brightline,Accra Consumer Imports,744.2,1509.83,2026-01-22,New
+P027,Notebook set,Office Supplies,Stationery,Mira,NorthStar Distribution,21.28,40.68,2025-10-21,Active
+P028,Desk organiser,Office Supplies,Stationery,Nexa,Meridian Supply Co.,193.44,280.46,2023-12-13,Active
+P029,Calculator,Office Supplies,Stationery,Daystar,Meridian Supply Co.,109.76,144.47,2024-10-16,Active
+P030,Hair dryer,Personal Care,Grooming,VoltaHome,Accra Consumer Imports,171.08,341.07,2023-04-02,Active
+P031,Electric trimmer,Personal Care,Grooming,Kora,Meridian Supply Co.,337.53,672.39,2023-04-13,Discontinued
+P032,Water flosser,Personal Care,Grooming,Nexa,Accra Consumer Imports,63.33,86.83,2024-02-03,Active
+P033,Digital thermometer,Personal Care,Wellness,Nexa,Golden Coast Trading,100.5,196.83,2025-10-23,Active
+P034,Blood pressure monitor,Personal Care,Wellness,Mira,NorthStar Distribution,83.5,161.79,2024-03-09,Active
+P035,Rechargeable shaver,Personal Care,Wellness,TekPro,Kumasi Wholesale Hub,589.11,733.62,2025-05-29,Active
+P036,Food storage set,Household Items,Kitchenware,Nexa,Golden Coast Trading,594.41,918.06,2025-08-15,Active
+P037,Cookware set,Household Items,Kitchenware,Nexa,Kumasi Wholesale Hub,699.24,1028.6,2023-01-07,Active
+P038,Water filter,Household Items,Kitchenware,VoltaHome,Accra Consumer Imports,728.84,994.55,2026-05-28,New
+P039,Mop and bucket,Household Items,Kitchenware,Brightline,Meridian Supply Co.,773.23,1188.27,2026-05-16,New
+P040,LED bulb pack,Household Items,Home Care,Apex Essentials,Kumasi Wholesale Hub,731.36,1166.86,2023-11-27,Active
+P041,Laundry basket,Household Items,Home Care,TekPro,NorthStar Distribution,440.08,781.22,2026-09-20,New
+P042,Bedsheet set,Household Items,Home Care,Kora,Golden Coast Trading,731.01,1013.81,2025-05-14,Active

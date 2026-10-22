@@ -1,0 +1,134 @@
+table Returns
+	lineageTag: 25a5d3d2-a90a-4168-ab3f-192431e1c35a
+
+	column ReturnID
+		dataType: string
+		lineageTag: 67d61f11-aafd-4e44-b1f4-91213e6a8868
+		summarizeBy: none
+		sourceColumn: ReturnID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column OrderID
+		dataType: string
+		lineageTag: 563e6de6-ade6-4a3c-ba6c-1259bf08a73a
+		summarizeBy: none
+		sourceColumn: OrderID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductID
+		dataType: string
+		lineageTag: 81a8c25e-9e68-4abd-b3d1-0d7c06fe2147
+		summarizeBy: none
+		sourceColumn: ProductID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column QuantityReturned
+		dataType: int64
+		formatString: 0
+		lineageTag: 73b41dae-ab9d-4b52-bb86-d380bb77d77e
+		summarizeBy: sum
+		sourceColumn: QuantityReturned
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column ReturnReason
+		dataType: string
+		lineageTag: 631b3988-b676-4985-a2b9-64ec70b67d74
+		summarizeBy: none
+		sourceColumn: ReturnReason
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column ReturnDate
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 2c5a7b56-fde9-4eac-91f7-d62a6c6f0678
+		summarizeBy: none
+		sourceColumn: ReturnDate
+
+		variation Variation
+			isDefault
+			relationship: b2352db1-098d-4b86-866a-5193ee12e356
+			defaultHierarchy: LocalDateTable_ce978076-343d-4746-9911-098524545b07.'Date Hierarchy'
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column QuantityReturnedClean
+		dataType: int64
+		lineageTag: d08f3f24-874d-4fba-af18-bde84e7e2572
+		summarizeBy: none
+		sourceColumn: QuantityReturnedClean
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column QuantityReturnedFlagged
+		dataType: string
+		lineageTag: 69ff6e2a-83da-45c6-91f5-029bddab5a10
+		summarizeBy: none
+		sourceColumn: QuantityReturnedFlagged
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column BusinessPeriodFlag
+		dataType: string
+		lineageTag: cc755f27-3754-49a3-8b29-36d64f61d3fb
+		summarizeBy: none
+		sourceColumn: BusinessPeriodFlag
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Returns = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents(pDataFolder & "\returns.csv"), [Delimiter = ",", Columns = 6, Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+				  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				  #"Capitalized each word" = Table.TransformColumns(#"Promoted headers", {{"ReturnReason", each Text.Proper(_), type nullable text}}),
+				  #"Added custom" = Table.AddColumn(#"Capitalized each word", "Custom", each if [ReturnDate] = null then null
+				else if Text.Contains([ReturnDate], "/")
+				then Date.FromText([ReturnDate], [Format="dd/MM/yyyy", Culture="en-GB"])
+				else Date.FromText([ReturnDate], [Format="yyyy-MM-dd"])),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Added custom", {{"ReturnID", type text}, {"OrderID", type text}, {"ReturnDate", type date}, {"ProductID", type text}, {"QuantityReturned", Int64.Type}}, "en-US"),
+				  #"Removed columns" = Table.RemoveColumns(#"Changed column type", {"Custom"}),
+				  #"Added custom 1" = Table.AddColumn(#"Removed columns", "Custom", each if [ReturnDate] = null then null
+				else if Value.Is([ReturnDate], type date) then [ReturnDate]
+				else if Text.Contains(Text.From([ReturnDate]), "/")
+				then Date.FromText(Text.From([ReturnDate]), [Format="dd/MM/yyyy", Culture="en-GB"])
+				else Date.FromText(Text.From([ReturnDate]), [Format="yyyy-MM-dd"])),
+				  #"Changed column type 1" = Table.TransformColumnTypes(#"Added custom 1", {{"Custom", type date}}),
+				  #"Removed columns 1" = Table.RemoveColumns(#"Changed column type 1", {"ReturnDate"}),
+				  #"Reordered columns" = Table.ReorderColumns(#"Removed columns 1", {"ReturnID", "OrderID", "Custom", "ProductID", "QuantityReturned", "ReturnReason"}),
+				  #"Renamed columns" = Table.RenameColumns(#"Reordered columns", {{"Custom", "ReturnDate"}}),
+				  #"Added custom 2" = Table.AddColumn(#"Renamed columns", "QuantityReturnedClean", each if [QuantityReturned] = null then 1 else [QuantityReturned], Int64.Type),
+				  #"Added custom 3" = Table.AddColumn(#"Added custom 2", "QuantityReturnedFlagged", each if [QuantityReturned] = null then "imputed" else "Original"),
+				  #"Added custom 4" = Table.AddColumn(#"Added custom 3", "BusinessPeriodFlag", each if [ReturnDate] > #date(2026, 12, 31)
+				then "Outside Business Period"
+				else "Within Business Period")
+				in
+				  #"Added custom 4"
+
+	annotation PBI_ResultType = Table
+

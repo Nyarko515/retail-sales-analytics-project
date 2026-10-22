@@ -1,0 +1,1501 @@
+﻿CustomerID,CustomerName,Gender,AgeGroup,RegionID,CustomerSegment,RegistrationDate
+C00001,Adu Ventures,,,R09,Small Business,2023-11-21
+C00002,Esi Tetteh,Female,25-34,R01,Individual,2022-05-29
+C00003,Adu Services,,,R02,Small Business,2025-04-16
+C00004,Nana Quaye,Female,45-54,R08,Individual,2023-01-04
+C00005,Evergreen Services,,,R01,Corporate,2024-07-05
+C00006,Daniel Appiah,Male,18-24,R02,Individual,2021-10-16
+C00007,Linda Sarpong,Male,35-44,R06,Individual,2025-08-08
+C00008,Adu Enterprises,,,R08,Small Business,2024-04-06
+C00009,Yaw Mensah,Female,18-24,R04,Individual,2024-05-29
+C00010,Joseph Appiah,Male,18-24,R01,Individual,2025-02-06
+C00011,Unity Enterprises,,,R06,Small Business,2021-06-25
+C00012,Blue Sky Ventures,,,R02,Small Business,2023-08-28
+C00013,Adwoa Agyeman,Female,45-54,R03,Individual,2025-09-21
+C00014,Adwoa Mensah,Male,45-54,R07,Individual,2022-09-16
+C00015,Yaw Asare,Female,25-34,R02,Individual,2024-05-17
+C00016,Yaw Appiah,Female,18-24,R01,Individual,2022-02-13
+C00017,Mabel Tetteh,Male,18-24,R01,Individual,2023-07-31
+C00018,Abena Sarpong,Female,35-44,R09,Individual,2026-11-27
+C00019,Linda Appiah,Female,45-54,R01,Individual,2024-06-12
+C00020,Ama Antwi,Female,45-54,R03,Individual,2023-05-06
+C00021,Nana Mensah,Female,45-54,R01,Individual,2023-10-01
+C00022,Esi Tetteh,Female,18-24,R05,Individual,2021-05-09
+C00023,K&K Enterprises,,,R03,Small Business,2026-09-08
+C00024,Yaw Sarpong,Male,25-34,R07,Individual,2023-06-14
+C00025,Nana Antwi,Male,18-24,R03,Individual,2022-08-08
+C00026,Daniel Mensah,Male,25-34,R01,Individual,2022-01-09
+C00027,Kofi Agyeman,Male,25-34,R02,Individual,2023-11-16
+C00028,Adu Services,,,R04,Small Business,2021-06-23
+C00029,Michael Mensah,Female,45-54,R04,Individual,2021-07-02
+C00030,Nana Quaye,Male,35-44,R06,Individual,2024-04-19
+C00031,Joseph Owusu,Male,45-54,R03,Individual,2022-11-24
+C00032,K&K Ventures,,,R08,Corporate,2023-02-20
+C00033,Esi Sarpong,Female,55+,R06,Individual,2022-06-10
+C00034,Akosua Sarpong,Male,45-54,R01,Individual,2021-09-08
+C00035,Daniel Boateng,Male,25-34,R09,Individual,2021-10-05
+C00036,Adwoa Tetteh,Male,18-24,R01,Individual,2025-08-26
+C00037,Northstar Ventures,,,R05,Small Business,2024-09-03
+C00038,Yaw Arthur,Female,45-54,R01,Individual,2021-09-18
+C00039,Unity Stores,,,R05,Small Business,2022-01-06
+C00040,Adu Stores,,,R01,Small Business,2022-03-14
+C00041,Joseph Quaye,Female,45-54,R09,Individual,2023-04-16
+C00042,Kojo Sarpong,Female,25-34,R01,Individual,2022-04-09
+C00043,Efua Boateng,Male,25-34,R03,Individual,2022-05-08
+C00044,Esi Mensah,Male,55+,R02,Individual,2021-01-18
+C00045,K&K Stores,,,R03,Small Business,2024-08-23
+C00046,Linda Boateng,Male,18-24,R01,Individual,2026-08-09
+C00047,Kwame Boateng,Male,25-34,R01,Individual,2021-07-26
+C00048,Nana Mensah,Male,35-44,R06,Individual,2026-09-10
+C00049,Linda Boateng,Female,18-24,R10,Individual,2023-10-25
+C00050,Kwame Appiah,Female,18-24,R01,Individual,2024-03-31
+C00051,Efua Quaye,Male,35-44,R01,Individual,2023-02-17
+C00052,Daniel Agyeman,Male,18-24,R01,Individual,2025-06-25
+C00053,Joseph Ofori,Female,25-34,R01,Individual,2021-03-16
+C00054,Esi Sarpong,Male,35-44,R06,Individual,2025-02-24
+C00055,Nana Ofori,Female,18-24,R09,Individual,2025-09-21
+C00056,Kwame Quaye,Female,55+,R02,Individual,2021-06-06
+C00057,Northstar Services,,,R09,Small Business,2025-01-11
+C00058,Kofi Tetteh,Female,55+,R06,Individual,2021-08-14
+C00059,Kwame Boateng,Female,25-34,R06,Individual,2023-06-05
+C00060,Kofi Owusu,Female,35-44,R01,Individual,2026-02-05
+C00061,Michael Quaye,Female,25-34,R01,Individual,2023-05-05
+C00062,Kojo Mensah,Female,25-34,R06,Individual,2023-06-06
+C00063,Kofi Ofori,Male,18-24,R01,Individual,2025-11-10
+C00064,Northstar Trading,,,R05,Small Business,2025-03-31
+C00065,Kwame Arthur,Female,55+,R01,Individual,2024-05-02
+C00066,Akosua Asare,Female,25-34,R08,Individual,2023-10-07
+C00067,Esi Antwi,Male,45-54,R01,Individual,2021-01-27
+C00068,Michael Sarpong,Male,18-24,R08,Individual,2026-09-18
+C00069,Kwame Arthur,Male,55+,R01,Individual,2022-07-07
+C00070,Michael Agyeman,Female,18-24,R03,Individual,2023-09-20
+C00071,Northstar Stores,,,R05,Small Business,2024-10-20
+C00072,Efua Antwi,Female,55+,R03,Individual,2021-07-13
+C00073,Daniel Quaye,Female,25-34,R08,Individual,2024-12-19
+C00074,Ama Boateng,Male,35-44,R05,Individual,2026-10-05
+C00075,Adwoa Arthur,Male,35-44,R09,Individual,2025-10-24
+C00076,Kojo Appiah,Female,25-34,R02,Individual,2025-11-30
+C00077,Joseph Appiah,Female,55+,R01,Individual,2022-10-15
+C00078,Joseph Agyeman,Male,55+,R03,Individual,
+C00079,Akosua Sarpong,Female,25-34,R01,Individual,2025-11-11
+C00080,Abena Arthur,Male,18-24,R04,Individual,2022-03-23
+C00081,K&K Services,,,R01,Small Business,2024-08-05
+C00082,Adwoa Tetteh,Male,45-54,R01,Individual,2023-03-24
+C00083,Mawuli Limited,,,R05,Small Business,2025-02-14
+C00084,Mawuli Stores,,,R01,Small Business,2022-08-25
+C00085,K&K Stores,,,R02,Small Business,2025-07-31
+C00086,Nana Antwi,Female,18-24,R05,Individual,2025-08-27
+C00087,Mabel Tetteh,Female,25-34,R01,Individual,2024-03-04
+C00088,Efua Appiah,Male,55+,R03,Individual,2026-02-07
+C00089,Yaw Sarpong,Male,35-44,R04,Individual,2024-09-13
+C00090,K&K Limited,,,R01,Corporate,2026-01-01
+C00091,Joseph Arthur,Male,55+,R02,Individual,2021-06-28
+C00092,Kojo Ofori,Male,25-34,R05,Individual,2022-11-14
+C00093,Nana Appiah,Male,55+,R05,Individual,2021-05-30
+C00094,Abena Mensah,Male,18-24,R03,Individual,2026-05-03
+C00095,Kofi Sarpong,Male,25-34,R02,Individual,2026-06-24
+C00096,Ama Mensah,Female,18-24,R01,Individual,2022-06-18
+C00097,K&K Services,,,R03,Corporate,2022-09-28
+C00098,Mawuli Enterprises,,,R01,Small Business,2022-03-30
+C00099,Akosua Ofori,Female,55+,R01,Individual,2022-01-22
+C00100,Efua Mensah,Male,25-34,R05,Individual,2024-09-06
+C00101,Efua Ofori,Male,35-44,R03,Individual,2021-05-21
+C00102,Esi Quaye,Male,45-54,R08,Individual,2022-10-13
+C00103,Northstar Limited,,,R04,Small Business,2023-07-15
+C00104,Mawuli Limited,,,R06,Small Business,2021-08-25
+C00105,Akosua Sarpong,Male,45-54,R08,Individual,2021-08-14
+C00106,Mabel Tetteh,Male,45-54,R01,Individual,2024-04-09
+C00107,Prime Limited,,,R07,Corporate,2025-07-19
+C00108,K&K Services,,,R03,Corporate,2023-07-01
+C00109,Mawuli Trading,,,R06,Small Business,2023-07-10
+C00110,Kwame Mensah,Female,18-24,R01,Individual,2025-06-07
+C00111,Kwame Antwi,Female,18-24,R05,Individual,2023-06-28
+C00112,Abena Appiah,Female,35-44,R03,Individual,2023-08-05
+C00113,Mabel Quaye,Female,25-34,R03,Individual,2023-02-23
+C00114,Mawuli Services,,,R03,Small Business,2026-04-28
+C00115,Michael Ofori,Male,18-24,R09,Individual,2023-04-23
+C00116,Kofi Owusu,Male,25-34,R02,Individual,2026-11-14
+C00117,Kofi Appiah,Male,35-44,R07,Individual,2022-05-13
+C00118,Nana Ofori,Male,25-34,R02,Individual,2024-11-23
+C00119,Akosua Boateng,Male,45-54,R04,Individual,2024-04-29
+C00120,Kwame Agyeman,Female,18-24,R04,Individual,2022-10-23
+C00121,Akosua Tetteh,Male,35-44,R06,Individual,2025-07-06
+C00122,Efua Antwi,Male,55+,R01,Individual,2024-12-18
+C00123,Linda Mensah,Male,18-24,R04,Individual,2022-04-27
+C00124,Kofi Arthur,Female,18-24,R07,Individual,2026-12-09
+C00125,Adwoa Sarpong,Female,25-34,R07,Individual,2026-08-17
+C00126,Prime Limited,,,R09,Small Business,2022-03-14
+C00127,Unity Enterprises,,,R03,Small Business,2025-02-24
+C00128,Akosua Agyeman,Male,55+,R01,Individual,2026-08-13
+C00129,Linda Agyeman,Male,25-34,R04,Individual,2021-04-15
+C00130,Mabel Tetteh,Female,55+,R03,Individual,2024-10-13
+C00131,Linda Quaye,Male,55+,R07,Individual,2023-01-28
+C00132,Mawuli Trading,,,R01,Small Business,2023-11-20
+C00133,Akosua Asare,Male,45-54,R01,Individual,2023-10-01
+C00134,Esi Tetteh,Female,25-34,R07,Individual,2026-08-18
+C00135,Ama Ofori,Male,18-24,R01,Individual,2024-07-22
+C00136,Nana Owusu,Female,35-44,R02,Individual,2022-09-30
+C00137,Adu Limited,,,R04,Corporate,2025-04-28
+C00138,Esi Sarpong,Female,45-54,R01,Individual,2022-10-10
+C00139,Akosua Asare,Female,25-34,R02,Individual,2026-09-12
+C00140,Blue Sky Trading,,,R01,Corporate,2025-06-17
+C00141,Kojo Arthur,Male,25-34,R08,Individual,2021-10-16
+C00142,Daniel Boateng,Male,35-44,R06,Individual,2023-08-12
+C00143,Kojo Ofori,Male,45-54,R06,Individual,2023-12-26
+C00144,Akosua Appiah,Female,18-24,R01,Individual,2025-02-09
+C00145,Blue Sky Limited,,,R01,Small Business,2025-07-07
+C00146,Nana Asare,Female,55+,R01,Individual,2022-10-16
+C00147,Kwame Tetteh,Female,45-54,R06,Individual,2025-03-10
+C00148,Adwoa Owusu,Male,45-54,R03,Individual,2026-12-10
+C00149,Kojo Mensah,Female,25-34,R03,Individual,2022-07-14
+C00150,Akosua Antwi,Male,35-44,R01,Individual,2026-02-03
+C00151,Evergreen Stores,,,R04,Corporate,2023-02-18
+C00152,Northstar Trading,,,R04,Small Business,2026-06-16
+C00153,Blue Sky Services,,,R01,Small Business,2026-05-31
+C00154,Joseph Quaye,Female,45-54,R04,Individual,2026-07-09
+C00155,Adwoa Sarpong,Male,18-24,R03,Individual,2022-06-21
+C00156,Nana Asare,Female,25-34,R07,Individual,2022-03-13
+C00157,Kofi Quaye,Male,45-54,R10,Individual,2025-11-11
+C00158,Mabel Boateng,Female,25-34,R03,Individual,2022-06-06
+C00159,Kwame Tetteh,Female,45-54,R02,Individual,2026-10-29
+C00160,Evergreen Limited,,,R03,Corporate,2022-12-31
+C00161,Abena Tetteh,Male,55+,R07,Individual,2026-07-20
+C00162,Abena Antwi,Male,18-24,R01,Individual,2025-09-04
+C00163,Kwame Quaye,Male,55+,R07,Individual,2023-06-23
+C00164,Nana Ofori,Female,18-24,R01,Individual,2025-11-02
+C00165,Adu Enterprises,,,R02,Corporate,2025-03-11
+C00166,Yaw Appiah,Female,45-54,R01,Individual,2024-01-19
+C00167,Daniel Sarpong,Female,35-44,R01,Individual,2024-10-28
+C00168,Efua Antwi,Male,25-34,R03,Individual,2023-03-09
+C00169,Akosua Arthur,Female,35-44,R03,Individual,2025-04-16
+C00170,Blue Sky Trading,,,R01,Small Business,2026-08-28
+C00171,Linda Owusu,Female,25-34,R03,Individual,2023-02-01
+C00172,Unity Trading,,,R02,Small Business,2022-04-28
+C00173,Linda Arthur,Male,35-44,R02,Individual,2023-04-04
+C00174,Akosua Mensah,Female,55+,R05,Individual,2024-09-10
+C00175,Efua Appiah,Female,25-34,R01,Individual,2025-09-17
+C00176,Michael Agyeman,Male,35-44,R03,Individual,2025-02-24
+C00177,Blue Sky Services,,,R05,Small Business,2023-05-28
+C00178,K&K Ventures,,,R02,Small Business,2023-09-15
+C00179,Yaw Boateng,Male,45-54,R09,Individual,2022-11-09
+C00180,Akosua Tetteh,Female,25-34,R08,Individual,2023-04-28
+C00181,Adwoa Mensah,Female,35-44,R01,Individual,2024-10-13
+C00182,Adwoa Arthur,Male,18-24,R01,Individual,2022-03-04
+C00183,Kwame Tetteh,Male,35-44,R03,Individual,2024-05-03
+C00184,Blue Sky Ventures,,,R09,Small Business,2025-02-25
+C00185,Adu Services,,,R01,Small Business,2025-05-31
+C00186,Akosua Quaye,Female,25-34,R04,Individual,2022-12-05
+C00187,Kojo Owusu,Female,25-34,R04,Individual,2023-08-26
+C00188,Abena Antwi,Male,25-34,R01,Individual,2025-11-22
+C00189,Ama Quaye,Male,35-44,R02,Individual,2026-03-15
+C00190,Abena Asare,Female,55+,R01,Individual,2026-01-06
+C00191,Daniel Agyeman,Female,45-54,R05,Individual,2026-01-01
+C00192,Mawuli Stores,,,R10,Small Business,2021-09-25
+C00193,Prime Ventures,,,R07,Small Business,2026-02-03
+C00194,Adwoa Agyeman,Male,55+,R04,Individual,2026-06-21
+C00195,Nana Arthur,Female,45-54,R01,Individual,2022-08-29
+C00196,Linda Mensah,Male,55+,R02,Individual,2022-10-10
+C00197,Nana Ofori,Female,25-34,R01,Individual,2023-12-04
+C00198,Kojo Quaye,Male,18-24,R02,Individual,2024-03-12
+C00199,Ama Mensah,Female,55+,R01,Individual,2025-04-21
+C00200,K&K Trading,,,R05,Corporate,2022-03-31
+C00201,Efua Agyeman,Male,45-54,R09,Individual,2026-07-05
+C00202,Adwoa Tetteh,Male,18-24,R07,Individual,2022-08-09
+C00203,Mabel Owusu,Female,25-34,R10,Individual,2025-09-02
+C00204,Esi Quaye,Male,45-54,R04,Individual,2026-07-18
+C00205,Yaw Sarpong,Female,45-54,R08,Individual,2026-12-13
+C00206,Kwame Quaye,Female,45-54,R06,Individual,2025-01-15
+C00207,Abena Ofori,Male,35-44,R04,Individual,2022-05-15
+C00208,Ama Owusu,Female,55+,R05,Individual,2024-03-19
+C00209,Daniel Mensah,Female,25-34,R01,Individual,2023-04-06
+C00210,Akosua Quaye,Female,55+,R01,Individual,2024-06-15
+C00211,Efua Quaye,Female,18-24,R04,Individual,2022-03-04
+C00212,Akosua Owusu,Male,18-24,R01,Individual,2024-02-23
+C00213,Mawuli Stores,,,R04,Corporate,2021-06-07
+C00214,Unity Services,,,R02,Small Business,2024-02-07
+C00215,Kofi Arthur,Male,35-44,R02,Individual,2021-08-09
+C00216,Nana Arthur,Female,45-54,R09,Individual,2025-03-31
+C00217,Ama Quaye,Male,18-24,R06,Individual,2023-12-13
+C00218,Kojo Quaye,Female,45-54,R02,Individual,2021-11-13
+C00219,Prime Stores,,,R02,Small Business,2022-04-13
+C00220,Daniel Tetteh,Male,18-24,R02,Individual,2025-12-29
+C00221,Kofi Arthur,Male,45-54,R01,Individual,2024-01-03
+C00222,Nana Boateng,Male,35-44,R02,Individual,2023-10-14
+C00223,Ama Agyeman,Female,25-34,R02,Individual,2021-06-09
+C00224,Ama Owusu,Female,25-34,R05,Individual,2025-04-01
+C00225,Ama Agyeman,Male,55+,R06,Individual,2025-07-23
+C00226,Yaw Boateng,Male,25-34,R03,Individual,2021-03-29
+C00227,Adwoa Arthur,Male,35-44,R01,Individual,2024-02-23
+C00228,Michael Asare,Female,35-44,R01,Individual,2024-05-02
+C00229,Kwame Appiah,Male,35-44,R10,Individual,2026-08-09
+C00230,Blue Sky Services,,,R02,Small Business,2021-02-15
+C00231,Akosua Tetteh,Female,35-44,R03,Individual,2022-04-21
+C00232,Prime Ventures,,,R02,Small Business,2024-07-15
+C00233,Northstar Services,,,R02,Small Business,2021-04-25
+C00234,Ama Ofori,Female,18-24,R01,Individual,2021-03-04
+C00235,Unity Stores,,,R08,Small Business,2023-04-19
+C00236,Prime Stores,,,R07,Corporate,2022-12-23
+C00237,Kojo Antwi,Female,35-44,R01,Individual,2026-09-18
+C00238,Nana Asare,Female,18-24,R01,Individual,2026-04-15
+C00239,Joseph Asare,Male,45-54,R03,Individual,2021-09-28
+C00240,Evergreen Trading,,,R01,Small Business,2023-08-03
+C00241,Esi Asare,Female,25-34,R04,Individual,2024-01-03
+C00242,Kojo Sarpong,Male,55+,R07,Individual,2023-07-12
+C00243,Kofi Sarpong,Female,45-54,R01,Individual,2026-04-22
+C00244,Adwoa Antwi,Female,18-24,R04,Individual,2024-05-27
+C00245,Northstar Stores,,,R04,Small Business,2026-10-12
+C00246,Kwame Owusu,Male,55+,R06,Individual,2021-11-08
+C00247,Adu Enterprises,,,R02,Small Business,2022-09-21
+C00248,Yaw Quaye,Male,25-34,R02,Individual,2024-06-21
+C00249,Kwame Quaye,Female,45-54,R06,Individual,2026-08-08
+C00250,Linda Arthur,Male,55+,R04,Individual,2025-10-01
+C00251,Evergreen Services,,,R08,Small Business,2022-07-09
+C00252,Yaw Quaye,Male,25-34,R01,Individual,2025-05-02
+C00253,Kojo Owusu,Female,55+,R07,Individual,2025-09-10
+C00254,Abena Quaye,Female,35-44,R07,Individual,2026-01-27
+C00255,Kwame Quaye,Male,45-54,R03,Individual,2025-05-28
+C00256,Adu Stores,,,R05,Corporate,2022-03-07
+C00257,Mawuli Trading,,,R01,Small Business,2024-07-25
+C00258,Akosua Asare,Male,45-54,R05,Individual,2021-12-13
+C00259,Kojo Asare,Male,18-24,R03,Individual,2024-04-07
+C00260,Joseph Ofori,Female,45-54,R03,Individual,2024-07-18
+C00261,Kwame Agyeman,Male,18-24,R01,Individual,2023-07-04
+C00262,Nana Quaye,Male,35-44,R01,Individual,2022-04-28
+C00263,Prime Enterprises,,,R02,Small Business,2021-03-12
+C00264,K&K Enterprises,,,R05,Small Business,2024-12-04
+C00265,Kwame Arthur,Male,25-34,R09,Individual,2025-02-21
+C00266,Unity Trading,,,R01,Corporate,2023-05-26
+C00267,K&K Limited,,,R07,Corporate,2026-10-21
+C00268,Daniel Sarpong,Male,55+,R03,Individual,2025-11-29
+C00269,Evergreen Services,,,R09,Small Business,2021-11-12
+C00270,Northstar Trading,,,R08,Small Business,2021-12-19
+C00271,Esi Arthur,Female,35-44,R09,Individual,2024-12-16
+C00272,Northstar Ventures,,,R02,Small Business,2023-11-03
+C00273,Michael Antwi,Female,25-34,R04,Individual,2025-04-04
+C00274,Yaw Quaye,Female,18-24,R03,Individual,2023-06-16
+C00275,Kojo Quaye,Female,25-34,R07,Individual,2026-09-19
+C00276,Efua Antwi,Male,25-34,R09,Individual,2022-07-25
+C00277,Joseph Sarpong,Female,45-54,R02,Individual,2022-12-04
+C00278,Akosua Sarpong,Female,35-44,R02,Individual,2021-01-16
+C00279,Mabel Agyeman,Female,55+,R08,Individual,2022-06-10
+C00280,Michael Arthur,Female,45-54,R02,Individual,2022-11-21
+C00281,Mabel Tetteh,Female,35-44,R02,Individual,2024-10-30
+C00282,Ama Appiah,Female,25-34,R08,Individual,2026-01-20
+C00283,Michael Tetteh,Male,35-44,R05,Individual,2026-07-02
+C00284,Joseph Ofori,Female,18-24,R01,Individual,2022-06-04
+C00285,Unity Services,,,R04,Small Business,2021-12-21
+C00286,Michael Quaye,Female,55+,R01,Individual,2026-02-04
+C00287,Nana Ofori,Male,35-44,R08,Individual,2022-11-15
+C00288,Evergreen Limited,,,R03,Corporate,2022-05-01
+C00289,Nana Boateng,Female,55+,R10,Individual,2025-08-09
+C00290,Kofi Mensah,Male,25-34,R03,Individual,2023-02-07
+C00291,Esi Antwi,Male,35-44,R01,Individual,2024-03-25
+C00292,Linda Asare,Female,35-44,R05,Individual,2024-01-08
+C00293,Daniel Arthur,Female,45-54,R06,Individual,2026-08-31
+C00294,Adwoa Boateng,Male,18-24,R01,Individual,2026-01-07
+C00295,Daniel Mensah,Male,45-54,R01,Individual,2023-07-23
+C00296,Esi Mensah,Female,25-34,R03,Individual,2022-04-05
+C00297,Ama Quaye,Male,45-54,R07,Individual,2025-03-06
+C00298,Yaw Agyeman,Male,45-54,R04,Individual,2022-07-26
+C00299,Esi Appiah,Male,18-24,R05,Individual,2025-10-30
+C00300,Efua Mensah,Male,25-34,R01,Individual,2025-04-09
+C00301,Esi Ofori,Male,18-24,R09,Individual,2026-10-30
+C00302,Akosua Tetteh,Male,35-44,R01,Small business,2023-05-05
+C00303,Mabel Arthur,Male,35-44,R06,Individual,2022-03-25
+C00304,Kojo Agyeman,Female,25-34,R02,Individual,2025-04-08
+C00305,Evergreen Services,,,R10,Small Business,2023-07-21
+C00306,Yaw Arthur,Female,45-54,R07,Individual,2023-01-01
+C00307,Efua Asare,Male,18-24,R09,Individual,2021-02-13
+C00308,Adu Services,,,R09,Small Business,2023-12-28
+C00309,Mabel Appiah,Male,25-34,R09,Individual,2023-03-22
+C00310,Daniel Ofori,Female,55+,R05,Individual,2024-05-09
+C00311,Nana Tetteh,Female,18-24,R01,Individual,2024-07-27
+C00312,Evergreen Services,,,R01,Small Business,2024-01-28
+C00313,Michael Arthur,Male,18-24,R01,Individual,2026-11-02
+C00314,Northstar Limited,,,R09,Small Business,2021-09-03
+C00315,Evergreen Services,,,R02,Small Business,2021-04-24
+C00316,Ama Appiah,Male,55+,R01,Individual,2025-01-19
+C00317,Adwoa Appiah,Female,18-24,R02,Individual,2023-06-04
+C00318,Abena Agyeman,Female,45-54,R02,Individual,2022-11-24
+C00319,Mabel Quaye,Female,45-54,R05,Individual,2026-11-13
+C00320,Joseph Owusu,Female,18-24,R01,Individual,2021-02-15
+C00321,Kojo Tetteh,Female,25-34,R07,Individual,2022-03-31
+C00322,Adwoa Arthur,Male,35-44,R01,Individual,2023-08-13
+C00323,Nana Tetteh,Female,18-24,R01,Individual,2023-11-24
+C00324,Kofi Antwi,Male,35-44,R01,Individual,2021-07-03
+C00325,Efua Owusu,Female,35-44,R01,Individual,2023-03-12
+C00326,Kojo Quaye,Female,35-44,R09,Individual,2021-06-28
+C00327,Yaw Tetteh,Female,25-34,R08,Individual,2021-09-10
+C00328,Daniel Mensah,Male,45-54,R07,Individual,2023-12-06
+C00329,Esi Owusu,Female,35-44,R03,Individual,2021-03-02
+C00330,Esi Quaye,Female,18-24,R04,Individual,2025-04-01
+C00331,Joseph Tetteh,Male,25-34,R10,Individual,2025-11-27
+C00332,Akosua Mensah,Female,18-24,R03,Individual,2026-06-19
+C00333,Yaw Boateng,Female,55+,R01,Individual,2026-10-22
+C00334,Michael Tetteh,Male,55+,R01,Individual,2021-04-08
+C00335,Prime Trading,,,R01,Small Business,2023-12-05
+C00336,Mabel Asare,Male,55+,R04,Individual,2026-09-26
+C00337,Adu Trading,,,R10,Small Business,2025-03-19
+C00338,Kofi Quaye,Male,25-34,R01,Individual,2025-12-06
+C00339,Abena Mensah,Male,18-24,R04,Individual,2025-08-22
+C00340,Northstar Enterprises,,,R01,Small Business,2024-05-16
+C00341,K&K Enterprises,,,R01,Small Business,2022-06-26
+C00342,Evergreen Trading,,,R10,Small Business,2023-03-12
+C00343,Kwame Mensah,Male,35-44,R01,Individual,2025-04-17
+C00344,Abena Ofori,Male,45-54,R01,Individual,2021-04-13
+C00345,Evergreen Enterprises,,,R06,Small Business,2026-01-30
+C00346,Esi Mensah,Female,25-34,R02,Individual,2022-10-24
+C00347,Efua Owusu,Female,18-24,R01,Individual,2022-10-28
+C00348,Efua Boateng,Female,45-54,R09,Individual,2022-06-17
+C00349,Nana Owusu,Male,55+,R01,Individual,2025-10-31
+C00350,Mabel Sarpong,Male,18-24,R05,Individual,2024-09-25
+C00351,Mabel Ofori,Male,55+,R03,Individual,2026-01-06
+C00352,Mawuli Trading,,,R05,Small Business,2025-01-10
+C00353,Kojo Appiah,Male,45-54,R02,Individual,2021-12-13
+C00354,Kojo Tetteh,Male,35-44,R01,Individual,2026-02-24
+C00355,Evergreen Ventures,,,R01,Small Business,2022-12-14
+C00356,Nana Boateng,Male,45-54,R02,Individual,2021-01-25
+C00357,Northstar Ventures,,,R01,Small Business,2025-04-18
+C00358,Efua Mensah,Female,18-24,R02,Individual,2026-05-21
+C00359,Esi Asare,Male,25-34,R01,Individual,2026-10-28
+C00360,Adwoa Boateng,Female,35-44,R01,Individual,2024-08-21
+C00361,Daniel Boateng,Female,55+,R05,Individual,2026-05-10
+C00362,Yaw Agyeman,Female,18-24,R08,Individual,2026-06-23
+C00363,Adwoa Tetteh,Female,55+,R02,Individual,2023-07-16
+C00364,Kwame Asare,Female,18-24,R01,Individual,2021-05-06
+C00365,Mabel Mensah,Male,55+,R05,Individual,2026-04-21
+C00366,Kwame Owusu,Female,35-44,R08,Individual,2021-02-11
+C00367,Adwoa Ofori,Male,35-44,R02,Individual,2021-10-19
+C00368,Linda Appiah,Female,35-44,R03,Individual,2022-11-27
+C00369,Linda Agyeman,Female,45-54,R01,Individual,2021-04-29
+C00370,Efua Appiah,Female,55+,R04,Individual,2022-04-07
+C00371,Michael Mensah,Female,35-44,R03,Individual,2025-03-16
+C00372,Adu Limited,,,R10,Corporate,2026-09-07
+C00373,Joseph Appiah,Female,55+,R02,Individual,2022-10-12
+C00374,Adwoa Boateng,Male,45-54,R01,Individual,2024-02-26
+C00375,Mabel Asare,Male,18-24,R05,Individual,2026-10-16
+C00376,Kofi Mensah,Male,18-24,R03,Individual,2026-09-21
+C00377,Efua Sarpong,Female,45-54,R02,Individual,2023-05-15
+C00378,Yaw Boateng,Female,55+,R06,Individual,2022-10-10
+C00379,Ama Quaye,Female,18-24,R02,Individual,2024-10-12
+C00380,Adwoa Antwi,Female,55+,R02,Individual,2022-12-21
+C00381,K&K Enterprises,,,R01,Small Business,2022-11-21
+C00382,Mabel Agyeman,Female,35-44,R04,Individual,2024-05-27
+C00383,Linda Mensah,Female,35-44,R02,Individual,2025-06-13
+C00384,Evergreen Enterprises,,,R06,Small Business,2026-01-11
+C00385,Mawuli Ventures,,,R06,Small Business,2021-02-09
+C00386,Daniel Boateng,Male,45-54,R03,Individual,2021-01-17
+C00387,Unity Trading,,,R01,Corporate,2025-04-08
+C00388,Adu Stores,,,R01,Corporate,2023-12-05
+C00389,Yaw Appiah,Female,25-34,R09,Individual,2021-07-02
+C00390,Daniel Boateng,Female,35-44,R01,Individual,2026-02-27
+C00391,Daniel Asare,Female,35-44,R02,Individual,2025-08-27
+C00392,Prime Enterprises,,,R01,Small Business,2025-12-22
+C00393,Unity Trading,,,R10,Small Business,2026-04-08
+C00394,Nana Mensah,Male,35-44,R10,Individual,2022-07-29
+C00395,Northstar Services,,,R01,Corporate,2025-06-01
+C00396,Linda Boateng,Male,18-24,R01,Individual,2025-07-11
+C00397,Akosua Asare,Female,18-24,R02,Individual,2025-01-07
+C00398,Adu Trading,,,R02,Small Business,2026-09-11
+C00399,Ama Appiah,Female,45-54,R03,Individual,2023-02-10
+C00400,Nana Mensah,Male,25-34,R05,Individual,2025-11-15
+C00401,Nana Ofori,Male,45-54,R03,Individual,2024-06-11
+C00402,Akosua Antwi,Male,45-54,R06,Individual,2022-12-18
+C00403,Daniel Owusu,Female,45-54,R06,Individual,2023-08-19
+C00404,Mawuli Ventures,,,R07,Corporate,2023-10-31
+C00405,Adwoa Owusu,Female,35-44,R03,Individual,2025-04-27
+C00406,Linda Boateng,Male,45-54,R10,Individual,2024-11-03
+C00407,Kojo Agyeman,Female,18-24,R03,Individual,2025-05-14
+C00408,Evergreen Trading,,,R01,Corporate,2025-12-02
+C00409,Akosua Antwi,Female,55+,R06,Individual,2021-12-18
+C00410,Daniel Sarpong,Female,45-54,R10,Individual,2026-10-14
+C00411,Yaw Arthur,Female,18-24,R01,Individual,2021-05-15
+C00412,Daniel Owusu,Female,18-24,R04,Individual,2024-03-19
+C00413,Unity Ventures,,,R01,Small Business,2026-07-12
+C00414,Northstar Services,,,R06,Small Business,2026-08-12
+C00415,Prime Enterprises,,,R09,Small Business,2023-01-24
+C00416,Mabel Asare,Female,55+,R10,Individual,2021-11-09
+C00417,Ama Owusu,Male,25-34,R01,Individual,2025-03-13
+C00418,Abena Tetteh,Male,18-24,R03,Individual,2026-11-03
+C00419,Daniel Mensah,Female,45-54,R05,Individual,2023-01-24
+C00420,Mabel Antwi,Female,35-44,R06,Individual,2021-09-07
+C00421,Linda Owusu,Male,18-24,R01,Individual,2022-02-16
+C00422,Kwame Ofori,Male,45-54,R06,Individual,2022-08-21
+C00423,Kojo Appiah,Male,35-44,R04,Individual,2026-08-10
+C00424,Daniel Agyeman,Male,18-24,R08,Individual,2025-01-09
+C00425,Ama Agyeman,Male,18-24,R01,Individual,2023-02-04
+C00426,Abena Sarpong,Female,35-44,R03,Individual,2021-12-05
+C00427,Mawuli Services,,,R08,Corporate,2025-05-16
+C00428,Prime Limited,,,R02,Small Business,2021-02-10
+C00429,Ama Agyeman,Female,45-54,R02,Individual,2022-08-07
+C00430,Adwoa Boateng,Male,55+,R02,Individual,2026-01-22
+C00431,K&K Services,,,R05,Small Business,2025-03-29
+C00432,Efua Tetteh,Female,25-34,R05,Individual,2022-10-19
+C00433,Ama Ofori,Male,55+,R05,Individual,2024-11-07
+C00434,Mabel Ofori,Female,35-44,R04,Individual,2021-08-09
+C00435,Kofi Appiah,Female,55+,R03,Individual,2023-08-10
+C00436,Efua Quaye,Female,25-34,R01,Individual,2023-04-01
+C00437,Joseph Appiah,Female,45-54,R01,Individual,2023-10-31
+C00438,Yaw Ofori,Male,35-44,R03,Individual,2025-04-26
+C00439,Yaw Owusu,Male,18-24,R02,Individual,2023-05-23
+C00440,Nana Sarpong,Female,18-24,R05,Individual,2024-09-12
+C00441,Kojo Antwi,Male,18-24,R07,Individual,2026-07-25
+C00442,Esi Agyeman,Female,25-34,R01,Individual,2025-02-14
+C00443,Blue Sky Enterprises,,,R10,Small Business,2026-03-06
+C00444,Esi Mensah,Male,45-54,R05,Individual,2021-07-01
+C00445,Ama Agyeman,Male,45-54,R07,Individual,2021-01-03
+C00446,Nana Antwi,Male,45-54,R01,Individual,2025-09-30
+C00447,Joseph Agyeman,Female,25-34,R03,Individual,2025-06-30
+C00448,Northstar Stores,,,R08,Small Business,2024-11-20
+C00449,Joseph Mensah,Male,55+,R04,Individual,2022-10-04
+C00450,Mawuli Enterprises,,,R02,Small Business,2026-07-12
+C00451,Adwoa Ofori,Male,25-34,R02,Individual,2025-10-12
+C00452,Adu Limited,,,R05,Small Business,2023-05-13
+C00453,Linda Tetteh,Male,45-54,R07,Individual,2023-08-21
+C00454,Nana Appiah,Female,55+,R08,Individual,2024-07-03
+C00455,Joseph Sarpong,Female,45-54,R01,Individual,2022-03-23
+C00456,Prime Enterprises,,,R01,Corporate,2026-03-03
+C00457,Nana Antwi,Female,25-34,R08,Individual,2026-05-20
+C00458,Mabel Tetteh,Female,35-44,R04,Individual,2021-09-20
+C00459,Yaw Antwi,Female,25-34,R01,Individual,2022-11-21
+C00460,Kwame Mensah,Male,35-44,R02,Individual,2022-03-06
+C00461,Mabel Owusu,Female,45-54,R02,Individual,2025-04-17
+C00462,Efua Agyeman,Male,55+,R03,Individual,2025-05-01
+C00463,Kofi Antwi,Male,45-54,R01,Individual,2022-12-25
+C00464,Northstar Stores,,,R01,Small Business,2024-09-17
+C00465,Nana Sarpong,Male,45-54,R03,Individual,2023-06-01
+C00466,Yaw Tetteh,Male,45-54,R03,Individual,2026-10-18
+C00467,Kojo Boateng,Female,18-24,R01,Individual,2023-12-18
+C00468,Abena Boateng,Female,35-44,R03,Individual,2024-06-26
+C00469,Daniel Antwi,Female,25-34,R02,Individual,2024-08-27
+C00470,Efua Quaye,Male,25-34,R10,Individual,2021-08-11
+C00471,Mabel Tetteh,Male,45-54,R05,Individual,2024-02-15
+C00472,Daniel Agyeman,Male,35-44,R01,Individual,2024-02-18
+C00473,Unity Ventures,,,R09,Small Business,2024-11-08
+C00474,Michael Tetteh,Female,55+,R03,Individual,2026-05-09
+C00475,Ama Antwi,Male,55+,R03,Individual,2025-09-07
+C00476,Northstar Services,,,R01,Small Business,2026-05-04
+C00477,Abena Asare,Female,55+,R01,Individual,2024-04-03
+C00478,Adu Ventures,,,R05,Corporate,2025-11-04
+C00479,Kojo Owusu,Male,35-44,R01,Individual,2024-06-20
+C00480,Abena Owusu,Male,18-24,R05,Individual,2024-07-20
+C00481,Efua Arthur,Male,35-44,R01,Individual,2026-10-11
+C00482,Northstar Limited,,,R03,Small Business,2024-07-20
+C00483,Linda Ofori,Female,25-34,R01,Individual,2025-10-11
+C00484,K&K Ventures,,,R02,Small Business,2024-11-09
+C00485,Yaw Tetteh,Male,25-34,R04,Individual,2021-11-24
+C00486,Evergreen Ventures,,,R01,Small Business,2024-04-21
+C00487,Blue Sky Services,,,R01,Small Business,2026-03-02
+C00488,Mawuli Stores,,,R01,Small Business,2022-07-18
+C00489,Kojo Tetteh,Male,18-24,R05,Individual,2025-10-09
+C00490,Mawuli Services,,,R01,Corporate,2022-03-05
+C00491,Esi Antwi,Female,45-54,R01,Individual,2026-06-23
+C00492,Prime Services,,,R07,Small Business,2026-11-04
+C00493,Evergreen Stores,,,R01,Small Business,2021-05-17
+C00494,Efua Asare,Female,55+,R01,Individual,2023-08-23
+C00495,Esi Tetteh,Male,25-34,R05,Individual,2022-01-11
+C00496,Adwoa Mensah,Female,18-24,R09,Individual,2024-11-10
+C00497,Unity Services,,,R01,Small Business,2023-07-08
+C00498,Linda Sarpong,Female,55+,R04,Individual,2021-06-13
+C00499,Mabel Boateng,Female,45-54,R02,Individual,2025-08-06
+C00500,Abena Agyeman,Female,35-44,R02,Individual,2021-10-18
+C00501,Kwame Owusu,Male,45-54,R01,Individual,2021-07-28
+C00502,Efua Arthur,Female,25-34,R04,Individual,2023-04-25
+C00503,Esi Owusu,Male,35-44,R03,Individual,2024-06-18
+C00504,Northstar Enterprises,,,R06,Corporate,2024-11-22
+C00505,K&K Enterprises,,,R01,Small Business,2026-11-22
+C00506,Linda Tetteh,Male,35-44,R02,Individual,2024-08-24
+C00507,Kwame Agyeman,Female,35-44,R01,Individual,2026-04-22
+C00508,Michael Ofori,Female,55+,R06,Individual,2021-01-06
+C00509,Efua Arthur,Female,35-44,R02,Individual,2021-06-10
+C00510,Northstar Stores,,,R02,Small Business,2021-06-11
+C00511,Northstar Ventures,,,R02,Corporate,2026-03-16
+C00512,Mabel Mensah,Female,55+,R01,Individual,2026-07-11
+C00513,Mawuli Limited,,,R05,Small Business,2021-07-14
+C00514,Esi Boateng,Female,25-34,R03,Individual,2024-09-10
+C00515,Linda Quaye,Male,35-44,R01,Individual,2026-01-17
+C00516,Evergreen Services,,,R01,Corporate,2023-08-15
+C00517,Joseph Tetteh,Female,18-24,R05,Individual,2024-07-15
+C00518,Mabel Asare,Male,18-24,R05,Individual,2026-09-06
+C00519,Adu Trading,,,R05,Small Business,2026-05-10
+C00520,Ama Antwi,Female,18-24,R02,Individual,2023-03-26
+C00521,Mabel Tetteh,Male,35-44,R08,Individual,2021-04-10
+C00522,Nana Owusu,Male,35-44,R01,Individual,2026-04-04
+C00523,Efua Ofori,Male,55+,R10,Individual,2023-05-10
+C00524,Ama Arthur,Male,25-34,R05,Individual,2026-10-09
+C00525,Michael Owusu,Male,35-44,R09,Individual,2024-08-25
+C00526,Kojo Tetteh,Female,35-44,R03,Individual,2021-02-20
+C00527,Joseph Boateng,Male,55+,R07,Individual,2025-11-21
+C00528,K&K Services,,,R01,Small Business,2022-04-23
+C00529,Kwame Arthur,Male,45-54,R04,Individual,2022-11-23
+C00530,Mabel Quaye,Female,45-54,R01,Individual,2025-01-16
+C00531,Kofi Tetteh,Female,18-24,R09,Individual,2026-09-16
+C00532,Esi Boateng,Male,55+,R03,Individual,2025-12-28
+C00533,Yaw Appiah,Female,25-34,R01,Individual,2023-06-15
+C00534,Akosua Sarpong,Female,55+,R08,Individual,2022-12-19
+C00535,Yaw Tetteh,Female,25-34,R03,Individual,2025-04-28
+C00536,Linda Quaye,Female,35-44,R02,Individual,2025-08-26
+C00537,Blue Sky Trading,,,R01,Small Business,2023-11-23
+C00538,Kofi Appiah,Male,18-24,R01,Individual,2023-03-11
+C00539,Mabel Asare,Male,35-44,R05,Individual,2021-12-29
+C00540,Adu Ventures,,,R05,Small Business,2024-05-16
+C00541,Abena Appiah,Female,45-54,R05,Individual,2022-05-06
+C00542,Daniel Boateng,Male,45-54,R01,Individual,2021-11-19
+C00543,Evergreen Stores,,,R04,Small Business,2021-11-30
+C00544,Prime Limited,,,R05,Small Business,2026-02-04
+C00545,Linda Appiah,Male,25-34,R01,Individual,2023-02-08
+C00546,Evergreen Limited,,,R04,Corporate,2023-03-12
+C00547,Kofi Tetteh,Female,35-44,R03,Individual,2021-03-19
+C00548,Yaw Appiah,Male,25-34,R02,Individual,2022-06-10
+C00549,Mawuli Services,,,R05,Small Business,2024-01-24
+C00550,Linda Arthur,Male,35-44,R01,Individual,2023-08-08
+C00551,Adu Stores,,,R02,Small Business,2022-11-18
+C00552,Nana Ofori,Female,18-24,R01,Individual,2025-07-30
+C00553,Linda Boateng,Female,18-24,R05,Individual,2021-02-11
+C00554,Akosua Mensah,Male,55+,R01,Individual,2022-04-27
+C00555,Northstar Services,,,R07,Corporate,2024-12-31
+C00556,Linda Antwi,Male,25-34,R03,Individual,2024-01-07
+C00557,Akosua Quaye,Male,45-54,R01,Individual,2023-06-30
+C00558,Nana Sarpong,Male,18-24,R01,Individual,2025-01-01
+C00559,Joseph Boateng,Male,25-34,R02,Individual,2026-12-19
+C00560,Adu Enterprises,,,R07,Small Business,2026-10-13
+C00561,Kwame Quaye,Male,35-44,R01,Individual,2022-01-27
+C00562,Ama Sarpong,Male,18-24,R03,Individual,2023-03-23
+C00563,Adwoa Owusu,Female,25-34,R10,Individual,2026-10-26
+C00564,Efua Boateng,Male,35-44,R01,Individual,2026-03-12
+C00565,Linda Sarpong,Male,18-24,R06,Individual,2022-12-01
+C00566,Northstar Limited,,,R01,Small Business,2021-03-07
+C00567,Akosua Antwi,Female,35-44,R03,Individual,2023-05-16
+C00568,Adu Stores,,,R08,Small Business,2025-04-07
+C00569,Evergreen Services,,,R10,Small Business,2021-07-11
+C00570,Mawuli Enterprises,,,R01,Small Business,2026-07-16
+C00571,Adwoa Antwi,Male,45-54,R01,Individual,2022-10-13
+C00572,Michael Tetteh,Female,55+,R03,Individual,2025-04-09
+C00573,Evergreen Enterprises,,,R05,Small Business,2023-05-22
+C00574,Linda Agyeman,Female,55+,R05,Individual,2022-02-08
+C00575,Yaw Appiah,Male,35-44,R07,Individual,2022-09-16
+C00576,Kwame Antwi,Female,25-34,R10,Individual,2023-05-19
+C00577,Adwoa Quaye,Male,45-54,R01,Individual,2024-08-16
+C00578,Yaw Antwi,Male,35-44,R03,Individual,2024-09-07
+C00579,Daniel Quaye,Female,25-34,R01,Individual,2023-09-19
+C00580,K&K Enterprises,,,R01,Small Business,2026-02-24
+C00581,Adwoa Quaye,Female,35-44,R10,Individual,2022-12-06
+C00582,Ama Owusu,Male,35-44,R04,Individual,2025-12-16
+C00583,Yaw Mensah,Female,45-54,R01,Individual,2024-07-14
+C00584,Blue Sky Ventures,,,R10,Small Business,2021-02-14
+C00585,Kwame Tetteh,Female,35-44,R08,Individual,2025-07-17
+C00586,Daniel Arthur,Female,45-54,R04,Individual,2024-01-29
+C00587,Kojo Antwi,Male,55+,R03,Individual,2023-07-01
+C00588,Joseph Mensah,Female,18-24,R03,Individual,2024-11-28
+C00589,Adu Ventures,,,R07,Corporate,2021-10-26
+C00590,Linda Tetteh,Male,55+,R02,Individual,2026-09-17
+C00591,Esi Quaye,Male,55+,R01,Individual,2021-05-06
+C00592,Adu Limited,,,R04,Small Business,2025-03-15
+C00593,Esi Asare,Female,45-54,R09,Individual,2026-11-12
+C00594,Ama Boateng,Female,55+,R01,Individual,2024-08-03
+C00595,Nana Tetteh,Male,18-24,R06,Individual,2021-06-27
+C00596,Ama Antwi,Female,55+,R03,Individual,2021-06-14
+C00597,Yaw Tetteh,Male,25-34,R10,Individual,2026-09-10
+C00598,Efua Antwi,Male,25-34,R02,Individual,2025-12-04
+C00599,Nana Sarpong,Female,45-54,R01,Individual,2026-04-15
+C00600,Daniel Agyeman,Female,35-44,R01,Individual,2021-03-12
+C00601,Michael Owusu,Male,18-24,R01,Individual,2026-09-24
+C00602,Esi Appiah,Male,45-54,R01,Individual,2024-02-25
+C00603,Yaw Arthur,Female,18-24,R08,Individual,2021-03-12
+C00604,K&K Services,,,R01,Corporate,2022-01-01
+C00605,Akosua Asare,Female,18-24,R01,Individual,2021-07-12
+C00606,Abena Boateng,Male,55+,R01,Individual,2022-07-15
+C00607,Blue Sky Ventures,,,R08,Corporate,2024-03-02
+C00608,Nana Sarpong,Male,55+,R03,Individual,2023-07-06
+C00609,Adwoa Ofori,Male,35-44,R05,Individual,2022-04-06
+C00610,Linda Arthur,Male,55+,R01,Individual,2026-01-31
+C00611,Kofi Mensah,Female,35-44,R03,Individual,2022-04-23
+C00612,Esi Ofori,Female,55+,R02,Individual,2021-02-27
+C00613,Prime Trading,,,R01,Small Business,2021-06-17
+C00614,Esi Mensah,Male,18-24,R03,Individual,2024-08-11
+C00615,Daniel Arthur,Female,45-54,R07,Individual,2021-02-06
+C00616,Kojo Asare,Male,25-34,R10,Individual,2021-12-18
+C00617,Linda Tetteh,Female,45-54,R05,Individual,2025-10-27
+C00618,Abena Boateng,Male,55+,R02,Individual,2021-12-10
+C00619,Mabel Mensah,Male,55+,R01,Individual,2022-11-07
+C00620,Mawuli Limited,,,R06,Small Business,2022-12-06
+C00621,Yaw Ofori,Female,35-44,R07,Individual,2024-07-14
+C00622,Mabel Sarpong,Female,35-44,R02,Individual,2025-07-27
+C00623,Joseph Boateng,Female,35-44,R09,Individual,2021-02-26
+C00624,Esi Sarpong,Female,55+,R06,Individual,2022-05-17
+C00625,Linda Quaye,Male,55+,R07,Individual,2026-03-28
+C00626,Joseph Sarpong,Female,25-34,R05,Individual,2023-10-05
+C00627,Linda Sarpong,Male,55+,R07,Individual,2023-05-29
+C00628,Kwame Ofori,Female,35-44,R02,Individual,2021-09-05
+C00629,Kojo Ofori,Female,25-34,R08,Individual,2022-11-07
+C00630,K&K Services,,,R02,Small Business,2024-07-12
+C00631,Linda Sarpong,Female,18-24,R09,Individual,2021-06-16
+C00632,Kwame Antwi,Male,35-44,R06,Individual,2024-06-24
+C00633,Esi Arthur,Male,45-54,R01,Individual,2023-11-07
+C00634,Mawuli Trading,,,R04,Small Business,2021-06-09
+C00635,Unity Trading,,,R02,Small Business,2022-12-18
+C00636,Esi Tetteh,Female,35-44,R09,Individual,2025-07-07
+C00637,Kojo Owusu,Male,18-24,R03,Individual,2025-12-24
+C00638,Akosua Owusu,Female,45-54,R03,Individual,2024-06-19
+C00639,Esi Ofori,Female,55+,R03,Individual,2025-09-30
+C00640,Linda Boateng,Male,35-44,R04,Individual,2025-11-19
+C00641,Evergreen Stores,,,R03,Corporate,2022-02-05
+C00642,Kofi Sarpong,Male,25-34,R08,Individual,2022-11-08
+C00643,Blue Sky Stores,,,R01,Small Business,2021-09-22
+C00644,Kofi Owusu,Female,18-24,R09,Individual,2022-02-20
+C00645,Unity Limited,,,R05,Corporate,2025-09-26
+C00646,Joseph Sarpong,Female,25-34,R02,Individual,2022-05-18
+C00647,Prime Limited,,,R01,Small Business,2024-12-16
+C00648,Mabel Antwi,Male,35-44,R01,Individual,2023-09-23
+C00649,Nana Boateng,Female,25-34,R01,Individual,2025-03-08
+C00650,Efua Antwi,Male,35-44,R04,Individual,2025-01-17
+C00651,Abena Asare,Male,35-44,R09,Individual,2024-11-10
+C00652,Northstar Enterprises,,,R05,Small Business,2023-11-09
+C00653,Esi Tetteh,Male,18-24,R01,Individual,2025-01-05
+C00654,Kwame Appiah,Male,18-24,R10,Individual,2021-02-11
+C00655,Akosua Asare,Male,25-34,R04,Individual,2022-12-13
+C00656,Abena Agyeman,Female,55+,R08,Individual,2021-04-24
+C00657,Kojo Agyeman,Male,35-44,R04,Individual,2025-09-22
+C00658,Michael Sarpong,Female,35-44,R02,Individual,2021-03-16
+C00659,Kofi Ofori,Male,45-54,R10,Individual,2022-06-06
+C00660,Michael Sarpong,Female,25-34,R04,Individual,2021-10-03
+C00661,Kofi Mensah,Female,35-44,R07,Individual,2024-04-09
+C00662,Prime Services,,,R07,Corporate,2023-06-24
+C00663,Adwoa Tetteh,Female,25-34,R07,Individual,2024-09-23
+C00664,Kojo Boateng,Female,35-44,R01,Individual,2025-06-04
+C00665,Adwoa Owusu,Male,55+,R01,Individual,2021-09-19
+C00666,Akosua Sarpong,Female,55+,R01,Individual,2026-01-24
+C00667,Michael Antwi,Female,45-54,R04,Individual,2022-01-15
+C00668,Daniel Quaye,Male,18-24,R01,Individual,2025-08-29
+C00669,Michael Agyeman,Female,35-44,R01,Individual,2023-06-09
+C00670,Kojo Boateng,Female,18-24,R01,Individual,2025-04-29
+C00671,Mabel Quaye,Female,45-54,R04,Individual,2022-07-12
+C00672,K&K Ventures,,,R05,Small Business,2024-04-22
+C00673,Mabel Owusu,Female,18-24,R08,Individual,2021-12-07
+C00674,Abena Agyeman,Male,35-44,R10,Individual,2026-07-17
+C00675,Mabel Antwi,Female,45-54,R05,Individual,2022-10-13
+C00676,Evergreen Trading,,,R01,Small Business,2025-12-17
+C00677,Adwoa Owusu,Female,25-34,R09,Individual,2024-07-31
+C00678,Mabel Tetteh,Female,18-24,R05,Individual,2024-07-02
+C00679,Kwame Mensah,Male,35-44,R07,Individual,2023-12-31
+C00680,Nana Ofori,Female,45-54,R03,Individual,2023-02-24
+C00681,Efua Tetteh,Female,55+,R01,Individual,2021-03-16
+C00682,Efua Asare,Male,55+,R02,Individual,2024-05-30
+C00683,K&K Trading,,,R03,Small Business,2025-08-26
+C00684,Joseph Sarpong,Male,35-44,R05,Individual,2023-04-05
+C00685,Michael Ofori,Male,35-44,R05,Individual,2026-12-04
+C00686,Kojo Mensah,Male,18-24,R03,Individual,2024-03-20
+C00687,Joseph Arthur,Female,35-44,R06,Individual,2025-12-25
+C00688,Akosua Quaye,Female,18-24,R01,Individual,2023-04-22
+C00689,Unity Enterprises,,,R05,Corporate,2022-12-22
+C00690,Efua Sarpong,Male,45-54,R02,Individual,2024-08-02
+C00691,Nana Arthur,Male,18-24,R01,Individual,2022-08-18
+C00692,Adu Limited,,,R01,Corporate,2023-11-09
+C00693,Kojo Ofori,Male,18-24,R02,Individual,2025-03-10
+C00694,Yaw Appiah,Female,55+,R07,Individual,2022-02-01
+C00695,K&K Trading,,,R08,Small Business,2026-01-21
+C00696,Esi Appiah,Female,18-24,R01,Individual,2021-12-31
+C00697,Akosua Boateng,Male,55+,R03,Individual,2022-03-10
+C00698,Abena Boateng,Female,55+,R02,Individual,2022-05-30
+C00699,Adwoa Antwi,Male,35-44,R02,Individual,2021-11-06
+C00700,Mawuli Trading,,,R07,Small Business,2025-08-14
+C00701,Akosua Asare,Female,55+,R01,Individual,2026-07-26
+C00702,Daniel Appiah,Male,55+,R02,Individual,2022-06-15
+C00703,Nana Owusu,Female,45-54,R02,Individual,2023-08-05
+C00704,Kwame Quaye,Male,55+,R03,Individual,2021-01-13
+C00705,Efua Tetteh,Female,55+,R05,Individual,2021-01-27
+C00706,Northstar Trading,,,R03,Small Business,2024-12-05
+C00707,Kofi Owusu,Male,18-24,R05,Individual,2022-12-25
+C00708,Yaw Antwi,Male,18-24,R01,Individual,2023-09-22
+C00709,Prime Services,,,R04,Small Business,2023-02-21
+C00710,Kojo Mensah,Male,55+,R01,Individual,2025-06-08
+C00711,Efua Boateng,Male,35-44,R02,Individual,2021-07-17
+C00712,Adwoa Owusu,Male,45-54,R03,Individual,2023-08-18
+C00713,Abena Ofori,Female,18-24,R04,Individual,2024-02-26
+C00714,Daniel Owusu,Female,45-54,R06,Individual,2023-08-16
+C00715,Adwoa Boateng,Female,55+,R07,Individual,2025-11-13
+C00716,Kofi Asare,Female,35-44,R03,Individual,2022-06-04
+C00717,Unity Stores,,,R02,Small Business,2026-11-12
+C00718,Mawuli Stores,,,R08,Corporate,2024-09-01
+C00719,Unity Ventures,,,R05,Small Business,2021-02-19
+C00720,Esi Quaye,Male,35-44,R05,Individual,2021-08-16
+C00721,Abena Appiah,Female,35-44,R01,Individual,2022-12-21
+C00722,Prime Ventures,,,R01,Corporate,2022-03-20
+C00723,Adwoa Agyeman,Male,25-34,R02,Individual,2022-05-30
+C00724,Ama Ofori,Female,55+,R02,Individual,2025-05-04
+C00725,Yaw Asare,Male,18-24,R05,Individual,2023-03-31
+C00726,Mabel Owusu,Male,45-54,R02,Individual,2022-02-04
+C00727,Daniel Antwi,Female,35-44,R01,Individual,2025-06-02
+C00728,Mawuli Services,,,R07,Corporate,2024-04-28
+C00729,Yaw Antwi,Male,25-34,R03,Individual,2026-12-09
+C00730,Abena Mensah,Male,18-24,R02,Individual,2021-01-23
+C00731,Efua Tetteh,Male,55+,R07,Individual,2025-12-12
+C00732,Yaw Tetteh,Female,18-24,R01,Individual,2024-09-20
+C00733,Joseph Arthur,Female,25-34,R02,Individual,2026-01-09
+C00734,Abena Boateng,Female,55+,R02,Individual,2022-06-13
+C00735,Kojo Boateng,Male,18-24,R08,Individual,2021-07-23
+C00736,Abena Sarpong,Male,55+,R01,Individual,2023-08-10
+C00737,Daniel Owusu,Female,25-34,R02,Individual,2023-04-19
+C00738,Joseph Tetteh,Male,45-54,R10,Individual,2023-04-09
+C00739,K&K Enterprises,,,R05,Corporate,2023-01-23
+C00740,Nana Tetteh,Male,25-34,R05,Individual,2021-09-29
+C00741,Yaw Sarpong,Male,35-44,R01,Individual,2025-07-27
+C00742,Nana Tetteh,Female,35-44,R04,Individual,2024-05-04
+C00743,Michael Agyeman,Male,35-44,R01,Individual,2021-01-23
+C00744,Abena Tetteh,Female,25-34,R10,Individual,2022-11-20
+C00745,Abena Tetteh,Female,25-34,R05,Individual,2022-11-16
+C00746,Northstar Services,,,R10,Small Business,2021-05-04
+C00747,Unity Stores,,,R02,Small Business,2022-03-02
+C00748,Blue Sky Limited,,,R04,Corporate,2026-05-10
+C00749,Ama Antwi,Female,55+,R03,Individual,2022-12-18
+C00750,Esi Ofori,Female,45-54,R02,Individual,2022-12-24
+C00751,Joseph Appiah,Male,35-44,R03,Individual,2023-05-22
+C00752,Evergreen Enterprises,,,R08,Small Business,2025-01-13
+C00753,Nana Tetteh,Male,25-34,R06,Individual,2024-06-11
+C00754,Ama Appiah,Female,25-34,R01,Individual,2026-04-28
+C00755,Blue Sky Trading,,,R02,Small Business,2021-07-20
+C00756,Yaw Antwi,Female,25-34,R10,Individual,2025-12-12
+C00757,Daniel Quaye,Female,35-44,R03,Individual,2025-07-12
+C00758,Mawuli Stores,,,R01,Small Business,2023-12-20
+C00759,Mawuli Stores,,,R08,Small Business,2025-05-01
+C00760,Michael Quaye,Female,55+,R01,Individual,2025-07-15
+C00761,Linda Ofori,Female,25-34,R05,Individual,2023-12-29
+C00762,Adwoa Quaye,Female,35-44,R02,Individual,2023-12-09
+C00763,Yaw Asare,Female,35-44,R10,Individual,2023-12-19
+C00764,Adwoa Arthur,Female,25-34,R05,Individual,2025-07-24
+C00765,Blue Sky Stores,,,R04,Small Business,2022-01-27
+C00766,Prime Enterprises,,,R04,Small Business,2023-05-30
+C00767,Kwame Appiah,Male,45-54,R01,Individual,2021-01-19
+C00768,Kofi Boateng,Male,18-24,R05,Individual,2022-04-25
+C00769,Efua Agyeman,Female,35-44,R06,Individual,2024-04-19
+C00770,Mabel Asare,Male,35-44,R01,Individual,2025-07-05
+C00771,Kojo Ofori,Male,18-24,R02,Individual,2024-12-31
+C00772,Akosua Agyeman,Female,18-24,R08,Individual,2025-07-18
+C00773,Yaw Tetteh,Female,25-34,R07,Individual,2024-10-30
+C00774,Prime Enterprises,,,R04,Small Business,2022-07-15
+C00775,Adu Limited,,,R02,Small Business,2023-04-14
+C00776,K&K Enterprises,,,R01,Corporate,2024-04-08
+C00777,Abena Sarpong,Male,55+,R06,Individual,2024-02-06
+C00778,Mabel Asare,Male,35-44,R02,Individual,2023-10-18
+C00779,Linda Arthur,Female,25-34,R02,Individual,2026-08-09
+C00780,Yaw Antwi,Female,18-24,R04,Individual,2024-11-13
+C00781,Yaw Tetteh,Male,55+,R08,Individual,2021-04-25
+C00782,Prime Limited,,,R01,Small Business,2021-09-29
+C00783,Efua Agyeman,Female,45-54,R05,Individual,2022-08-04
+C00784,Yaw Arthur,Male,35-44,R01,Individual,2025-10-11
+C00785,Michael Owusu,Male,35-44,R02,Individual,2023-11-12
+C00786,Unity Limited,,,R10,Small Business,2025-10-28
+C00787,Adu Limited,,,R02,Small Business,2021-12-13
+C00788,Abena Boateng,Male,35-44,R02,Individual,2022-09-23
+C00789,Daniel Owusu,Male,55+,R10,Individual,2022-11-19
+C00790,Linda Sarpong,Female,18-24,R03,Individual,2026-04-27
+C00791,Unity Limited,,,R02,Small Business,2021-10-16
+C00792,Kwame Quaye,Male,25-34,R06,Individual,2023-05-06
+C00793,Adwoa Asare,Male,55+,R04,Individual,2023-05-29
+C00794,Kofi Agyeman,Male,25-34,R01,Individual,2022-11-11
+C00795,Abena Tetteh,Male,18-24,R01,Individual,2021-10-03
+C00796,Abena Agyeman,Male,35-44,R07,Individual,2022-02-13
+C00797,Abena Mensah,Male,35-44,R06,Individual,2026-09-02
+C00798,Nana Sarpong,Male,25-34,R01,Individual,2022-04-30
+C00799,Northstar Stores,,,R01,Small Business,2024-06-09
+C00800,Kofi Mensah,Female,18-24,R07,Individual,2024-09-17
+C00801,Akosua Arthur,Female,55+,R06,Individual,2025-03-18
+C00802,Michael Owusu,Male,55+,R01,Individual,2025-04-18
+C00803,Prime Services,,,R01,Corporate,2026-07-16
+C00804,Akosua Sarpong,Male,35-44,R04,Individual,2025-11-05
+C00805,Kojo Agyeman,Male,35-44,R02,Individual,2022-06-01
+C00806,Evergreen Ventures,,,R01,Small Business,2025-07-17
+C00807,Northstar Stores,,,R01,Small Business,2024-01-09
+C00808,Nana Arthur,Male,35-44,R06,Individual,2022-06-02
+C00809,Mabel Quaye,Female,55+,R02,Individual,2026-09-16
+C00810,Michael Tetteh,Female,55+,R02,Individual,2022-07-28
+C00811,Prime Ventures,,,R03,Corporate,2022-02-19
+C00812,Nana Ofori,Male,25-34,R04,Individual,2022-08-07
+C00813,Adwoa Antwi,Female,45-54,R09,Individual,2025-11-26
+C00814,Abena Appiah,Male,18-24,R01,Individual,2024-03-15
+C00815,Nana Agyeman,Male,45-54,R01,Individual,2023-03-13
+C00816,Esi Owusu,Female,35-44,R03,Individual,2022-12-28
+C00817,Kofi Boateng,Male,35-44,R03,Individual,2024-02-24
+C00818,K&K Stores,,,R04,Small Business,2023-05-09
+C00819,Adwoa Owusu,Female,35-44,R02,Individual,2026-05-07
+C00820,Yaw Antwi,Male,45-54,R01,Individual,2025-01-23
+C00821,Blue Sky Stores,,,R03,Small Business,2021-07-07
+C00822,Linda Quaye,Male,18-24,R10,Individual,2025-08-02
+C00823,Kofi Owusu,Female,35-44,R06,Individual,2026-05-09
+C00824,Nana Mensah,Male,18-24,R02,Individual,2022-08-08
+C00825,Evergreen Stores,,,R01,Small Business,2021-10-21
+C00826,Adwoa Quaye,Male,45-54,R03,Individual,2023-11-25
+C00827,Joseph Ofori,Female,55+,R02,Individual,2023-10-14
+C00828,Blue Sky Enterprises,,,R01,Small Business,2021-09-28
+C00829,Kojo Boateng,Female,35-44,R06,Individual,2024-11-13
+C00830,K&K Enterprises,,,R07,Corporate,2025-09-09
+C00831,Adwoa Appiah,Female,55+,R06,Individual,2023-04-09
+C00832,Esi Appiah,Male,18-24,R04,Individual,2023-07-28
+C00833,Michael Agyeman,Female,45-54,R05,Individual,2023-08-30
+C00834,K&K Trading,,,R02,Small Business,2026-05-23
+C00835,Yaw Antwi,Male,25-34,R10,Individual,2023-03-25
+C00836,Daniel Asare,Male,45-54,R03,Individual,2021-01-18
+C00837,Kojo Tetteh,Male,25-34,R01,Individual,2021-04-18
+C00838,Ama Sarpong,Male,35-44,R01,Individual,2022-10-18
+C00839,Blue Sky Limited,,,R08,Small Business,2025-04-17
+C00840,Linda Boateng,Female,45-54,R08,Individual,2023-03-15
+C00841,Daniel Arthur,Male,45-54,R01,Individual,2023-12-09
+C00842,Esi Quaye,Male,55+,R06,Individual,2021-04-16
+C00843,Kwame Sarpong,Female,55+,R01,Individual,2025-09-04
+C00844,Akosua Arthur,Male,55+,R06,Individual,2025-10-10
+C00845,Joseph Antwi,Male,55+,R10,Individual,2023-05-25
+C00846,Adwoa Tetteh,Female,45-54,R01,Individual,2021-04-20
+C00847,Evergreen Ventures,,,R01,Small Business,2024-10-25
+C00848,Linda Mensah,Female,55+,R01,Individual,2023-09-24
+C00849,Daniel Asare,Male,55+,R01,Individual,2022-09-15
+C00850,Yaw Boateng,Male,35-44,R03,Individual,2024-06-17
+C00851,Joseph Tetteh,Female,18-24,R09,Individual,2025-04-01
+C00852,Joseph Mensah,Female,35-44,R04,Individual,2025-12-20
+C00853,Michael Ofori,Male,45-54,R06,Individual,2026-05-11
+C00854,Efua Appiah,Female,45-54,R02,Individual,2021-10-13
+C00855,Kojo Boateng,Female,45-54,R01,Individual,2021-05-04
+C00856,Adwoa Owusu,Male,25-34,R02,Individual,2021-06-11
+C00857,Michael Agyeman,Female,18-24,R01,Individual,2024-03-15
+C00858,Adu Limited,,,R01,Small Business,2021-04-05
+C00859,Mabel Asare,Female,35-44,R03,Individual,2026-10-06
+C00860,Blue Sky Enterprises,,,R07,Small Business,2022-12-30
+C00861,Esi Owusu,Female,45-54,R01,Individual,2025-11-10
+C00862,Michael Antwi,Male,35-44,R04,Individual,2021-09-08
+C00863,Kofi Boateng,Male,18-24,R01,Individual,2021-06-19
+C00864,Michael Tetteh,Male,45-54,R03,Individual,2025-05-05
+C00865,Abena Antwi,Male,45-54,R03,Individual,2023-08-02
+C00866,Adwoa Quaye,Female,45-54,R02,Individual,2022-11-27
+C00867,Kojo Sarpong,Female,45-54,R01,Individual,2024-07-30
+C00868,Esi Tetteh,Female,55+,R01,Individual,2021-09-25
+C00869,Mabel Ofori,Male,18-24,R01,Individual,2021-03-10
+C00870,Mabel Boateng,Female,25-34,R02,Individual,2023-01-09
+C00871,Kofi Asare,Male,55+,R04,Individual,2023-09-24
+C00872,Daniel Agyeman,Male,45-54,R07,Individual,2026-08-08
+C00873,Blue Sky Stores,,,R05,Small Business,2025-12-26
+C00874,Mabel Tetteh,Male,25-34,R02,Individual,2026-08-25
+C00875,Adwoa Mensah,Male,18-24,R04,Individual,2023-03-27
+C00876,Nana Antwi,Female,18-24,R05,Individual,2021-02-24
+C00877,Linda Antwi,Male,18-24,R01,Individual,2022-08-19
+C00878,Daniel Tetteh,Female,45-54,R01,Individual,2021-09-25
+C00879,Adu Limited,,,R01,Small Business,2023-01-15
+C00880,Evergreen Enterprises,,,R05,Small Business,2025-08-11
+C00881,Northstar Trading,,,R02,Corporate,2022-09-10
+C00882,Kofi Appiah,Female,45-54,R02,Individual,2022-08-15
+C00883,Efua Appiah,Female,55+,R03,Individual,2025-04-27
+C00884,Esi Sarpong,Female,25-34,R09,Individual,2025-11-29
+C00885,Mawuli Ventures,,,R04,Corporate,2025-12-04
+C00886,Linda Ofori,Female,45-54,R02,Individual,2025-09-15
+C00887,Akosua Owusu,Male,18-24,R01,Individual,2025-09-26
+C00888,Kojo Antwi,Female,35-44,R01,Individual,2026-04-19
+C00889,Kofi Ofori,Male,18-24,R03,Individual,2024-01-10
+C00890,Adwoa Antwi,Male,45-54,R01,Individual,2021-11-06
+C00891,Nana Boateng,Female,55+,R01,Individual,2025-07-08
+C00892,Adwoa Ofori,Female,18-24,R04,Individual,2023-09-01
+C00893,Mawuli Ventures,,,R01,Corporate,2023-04-01
+C00894,Kwame Tetteh,Male,25-34,R07,Individual,2026-01-12
+C00895,Prime Enterprises,,,R02,Small Business,2024-03-02
+C00896,Yaw Owusu,Female,18-24,R02,Individual,2023-04-16
+C00897,Mabel Tetteh,Male,18-24,R07,Individual,2026-08-27
+C00898,Yaw Appiah,Female,18-24,R09,Individual,2026-04-21
+C00899,Joseph Sarpong,Female,45-54,R10,Individual,2025-04-04
+C00900,Nana Quaye,Male,45-54,R06,Individual,2023-01-21
+C00901,Adwoa Agyeman,Female,55+,R02,Individual,2023-09-21
+C00902,Joseph Antwi,Female,45-54,R05,Individual,2022-01-13
+C00903,Kojo Arthur,Male,18-24,R01,Individual,2025-12-16
+C00904,Esi Boateng,Male,35-44,R02,Individual,2024-09-13
+C00905,Esi Sarpong,Female,25-34,R01,Individual,2023-06-03
+C00906,Esi Owusu,Male,55+,R02,Individual,2026-08-16
+C00907,Michael Ofori,Male,45-54,R03,Individual,2022-08-03
+C00908,Blue Sky Services,,,R05,Corporate,2023-10-14
+C00909,Ama Antwi,Male,25-34,R03,Individual,2022-11-20
+C00910,Kwame Appiah,Male,45-54,R03,Individual,2023-04-28
+C00911,Joseph Owusu,Male,45-54,R02,Individual,2022-01-12
+C00912,Northstar Services,,,R01,Small Business,2022-09-10
+C00913,Esi Owusu,Male,55+,R03,Individual,2026-06-10
+C00914,K&K Stores,,,R01,Small Business,2022-12-15
+C00915,Michael Appiah,Male,18-24,R03,Individual,2023-05-28
+C00916,Linda Ofori,Male,55+,R03,Individual,2023-12-20
+C00917,Kwame Agyeman,Male,45-54,R02,Individual,2025-02-24
+C00918,Blue Sky Enterprises,,,R03,Corporate,2025-02-15
+C00919,Kwame Appiah,Male,45-54,R03,Individual,2023-09-23
+C00920,Adu Enterprises,,,R09,Small Business,2021-04-21
+C00921,Esi Ofori,Male,25-34,R03,Individual,2021-10-02
+C00922,Linda Agyeman,Female,45-54,R02,Individual,2026-07-30
+C00923,Daniel Ofori,Female,35-44,R02,Individual,2023-09-07
+C00924,Adwoa Quaye,Male,45-54,R03,Individual,2022-12-22
+C00925,Nana Tetteh,Female,18-24,R02,Individual,2025-03-08
+C00926,Yaw Sarpong,Male,45-54,R10,Individual,2026-09-04
+C00927,Efua Agyeman,Male,35-44,R03,Individual,2024-08-15
+C00928,Michael Agyeman,Female,18-24,R01,Individual,2023-09-13
+C00929,Adwoa Asare,Male,35-44,R01,Individual,2026-10-22
+C00930,Michael Owusu,Male,35-44,R04,Individual,2022-09-14
+C00931,Adwoa Agyeman,Male,55+,R01,Individual,2023-12-01
+C00932,Linda Ofori,Male,35-44,R02,Individual,2021-06-18
+C00933,Adu Trading,,,R01,Small Business,2022-08-18
+C00934,Esi Asare,Female,18-24,R01,Individual,2024-05-10
+C00935,Daniel Tetteh,Male,35-44,R04,Individual,2023-07-13
+C00936,Joseph Appiah,Male,18-24,R05,Individual,2025-01-09
+C00937,Blue Sky Stores,,,R10,Small Business,2024-05-25
+C00938,Joseph Asare,Female,55+,R05,Individual,2021-09-09
+C00939,Abena Sarpong,Female,18-24,R01,Individual,2026-03-21
+C00940,Abena Quaye,Male,25-34,R06,Individual,2021-10-06
+C00941,Blue Sky Ventures,,,R01,Corporate,2024-09-17
+C00942,Nana Agyeman,Male,55+,R02,Individual,2024-04-27
+C00943,Northstar Services,,,R03,Corporate,2025-05-15
+C00944,Adwoa Agyeman,Male,35-44,R06,Individual,2024-02-14
+C00945,Michael Agyeman,Male,18-24,R08,Individual,2024-08-13
+C00946,Mawuli Enterprises,,,R03,Small Business,2024-09-05
+C00947,Daniel Quaye,Male,25-34,R07,Individual,2022-01-29
+C00948,Michael Appiah,Male,45-54,R10,Individual,2022-04-01
+C00949,Linda Arthur,Female,35-44,R01,Individual,2026-11-14
+C00950,Northstar Ventures,,,R01,Small Business,2022-06-19
+C00951,Daniel Arthur,Female,18-24,R01,Individual,2022-12-13
+C00952,Evergreen Services,,,R02,Small Business,2024-02-09
+C00953,Abena Quaye,Female,18-24,R05,Individual,2025-01-16
+C00954,Yaw Asare,Male,55+,R10,Individual,2026-01-29
+C00955,Unity Services,,,R07,Small Business,2026-10-07
+C00956,Adwoa Boateng,Male,45-54,R03,Individual,2022-02-01
+C00957,Esi Owusu,Female,45-54,R05,Individual,2025-10-08
+C00958,Esi Antwi,Female,25-34,R02,Individual,2025-02-02
+C00959,Ama Boateng,Female,35-44,R01,Individual,2023-06-11
+C00960,Kofi Tetteh,Male,55+,R03,Individual,2024-09-16
+C00961,Kojo Antwi,Female,18-24,R02,Individual,2024-11-21
+C00962,Evergreen Limited,,,R07,Small Business,2024-08-28
+C00963,Yaw Agyeman,Female,35-44,R09,Individual,2021-04-07
+C00964,Joseph Agyeman,Female,45-54,R06,Individual,2021-05-08
+C00965,Adu Ventures,,,R05,Corporate,2024-10-12
+C00966,Mabel Owusu,Male,18-24,R02,Individual,2023-03-09
+C00967,Linda Appiah,Male,25-34,R01,Individual,2026-10-18
+C00968,Daniel Sarpong,Female,55+,R04,Individual,2025-01-25
+C00969,Efua Mensah,Female,35-44,R04,Individual,2022-07-07
+C00970,Adwoa Appiah,Male,18-24,R01,Individual,2026-05-14
+C00971,Yaw Owusu,Male,35-44,R05,Individual,2023-08-08
+C00972,Kofi Quaye,Female,18-24,R09,Individual,2022-01-21
+C00973,Evergreen Trading,,,R03,Small Business,2024-07-28
+C00974,Michael Asare,Female,55+,R01,Individual,2023-12-03
+C00975,Daniel Antwi,Female,18-24,R10,Individual,2025-01-24
+C00976,Unity Ventures,,,R05,Small Business,2023-10-02
+C00977,Abena Boateng,Female,25-34,R05,Individual,2023-07-07
+C00978,Mabel Sarpong,Female,55+,R05,Individual,2025-05-23
+C00979,Joseph Tetteh,Male,45-54,R02,Individual,2022-11-25
+C00980,Kojo Tetteh,Male,35-44,R02,Individual,2021-02-10
+C00981,Kofi Ofori,Female,35-44,R04,Individual,2022-01-05
+C00982,Adwoa Arthur,Female,45-54,R04,Individual,2022-02-18
+C00983,Yaw Quaye,Female,35-44,R01,Individual,2025-02-13
+C00984,Abena Appiah,Male,18-24,R03,Individual,2025-12-20
+C00985,Abena Appiah,Female,25-34,R02,Individual,2024-03-09
+C00986,Kwame Mensah,Male,55+,R05,Individual,2024-06-28
+C00987,Michael Ofori,Male,45-54,R01,Individual,2026-02-03
+C00988,Mawuli Trading,,,R06,Small Business,2023-03-19
+C00989,Esi Boateng,Female,55+,R08,Individual,2026-01-03
+C00990,Akosua Owusu,Female,35-44,R01,Individual,2022-11-09
+C00991,Linda Asare,Female,45-54,R05,Individual,2026-05-01
+C00992,Linda Arthur,Male,45-54,R02,Individual,2025-07-11
+C00993,Linda Appiah,Female,35-44,R04,Individual,2022-01-04
+C00994,Northstar Trading,,,R03,Small Business,2025-07-03
+C00995,Blue Sky Limited,,,R01,Small Business,2024-07-08
+C00996,Daniel Antwi,Male,55+,R02,Individual,2024-08-14
+C00997,Joseph Antwi,Male,35-44,R03,Individual,2024-07-02
+C00998,Evergreen Ventures,,,R02,Corporate,2023-02-22
+C00999,Evergreen Enterprises,,,R09,Small Business,2026-09-22
+C01000,Mabel Appiah,Female,45-54,R06,Individual,2025-08-24
+C01001,Kojo Tetteh,Male,35-44,R01,Individual,2026-10-30
+C01002,Kofi Agyeman,Female,55+,R01,Individual,2023-01-30
+C01003,Kojo Appiah,Female,55+,R10,Individual,2021-12-30
+C01004,Kwame Appiah,Female,45-54,R01,Individual,2026-08-27
+C01005,Kofi Antwi,Female,25-34,R08,Individual,2021-08-06
+C01006,Kojo Mensah,Female,25-34,R06,Individual,2025-09-04
+C01007,Kwame Agyeman,Female,35-44,R06,Individual,2022-11-23
+C01008,Prime Stores,,,R04,Corporate,2025-04-30
+C01009,Ama Sarpong,Female,45-54,R02,Individual,2023-12-09
+C01010,Joseph Mensah,Female,18-24,R01,Individual,2021-07-30
+C01011,Efua Agyeman,Female,55+,R02,Individual,2023-06-06
+C01012,Joseph Agyeman,Male,45-54,R01,Individual,2023-10-13
+C01013,Daniel Owusu,Female,45-54,R04,Individual,2024-11-15
+C01014,Northstar Enterprises,,,R02,Small Business,2024-08-03
+C01015,Esi Appiah,Female,35-44,R06,Individual,2026-05-16
+C01016,Mabel Agyeman,Male,25-34,R04,Individual,2026-04-26
+C01017,Evergreen Limited,,,R02,Small Business,2021-03-18
+C01018,Joseph Quaye,Female,18-24,R09,Individual,2021-12-23
+C01019,Adwoa Tetteh,Female,55+,R03,Individual,2022-08-27
+C01020,Esi Antwi,Female,25-34,R01,Individual,2024-08-21
+C01021,Evergreen Stores,,,R02,Small Business,2022-01-09
+C01022,Joseph Agyeman,Male,35-44,R03,Individual,2021-01-10
+C01023,Ama Arthur,Female,25-34,R01,Individual,2021-10-23
+C01024,Northstar Stores,,,R05,Corporate,2025-05-31
+C01025,Mawuli Trading,,,R03,Small Business,2024-11-08
+C01026,Mabel Sarpong,Female,25-34,R01,Individual,2024-08-31
+C01027,Adu Ventures,,,R01,Small Business,2026-01-22
+C01028,Esi Boateng,Male,55+,R01,Individual,2023-07-16
+C01029,Prime Ventures,,,R04,Small Business,2024-07-17
+C01030,Esi Quaye,Female,55+,R01,Individual,2024-03-23
+C01031,Yaw Appiah,Female,45-54,R07,Individual,2023-10-12
+C01032,Yaw Tetteh,Female,18-24,R02,Individual,2024-08-12
+C01033,Nana Mensah,Male,25-34,R01,Individual,2021-12-19
+C01034,Michael Agyeman,Female,35-44,R02,Individual,2023-06-25
+C01035,Daniel Antwi,Male,45-54,R09,Individual,2026-10-07
+C01036,K&K Trading,,,R02,Small Business,2022-02-17
+C01037,Daniel Agyeman,Female,18-24,R07,Individual,2024-01-04
+C01038,Evergreen Enterprises,,,R07,Small Business,2023-06-10
+C01039,Kojo Tetteh,Male,25-34,R02,Individual,2025-05-17
+C01040,Esi Agyeman,Male,18-24,R01,Individual,2021-12-07
+C01041,Northstar Enterprises,,,R01,Corporate,2023-06-20
+C01042,Ama Tetteh,Male,25-34,R03,Individual,2022-10-01
+C01043,Michael Boateng,Male,18-24,R10,Individual,2025-10-21
+C01044,Blue Sky Services,,,R01,Small Business,2025-04-27
+C01045,Esi Agyeman,Male,18-24,R05,Individual,2021-12-19
+C01046,Linda Appiah,Male,35-44,R01,Individual,2021-02-28
+C01047,Ama Boateng,Male,45-54,R05,Individual,2021-12-11
+C01048,Kwame Antwi,Female,55+,R10,Individual,2024-12-28
+C01049,Yaw Tetteh,Male,35-44,R01,Individual,2023-12-04
+C01050,Northstar Services,,,R01,Small Business,2022-09-04
+C01051,Abena Appiah,Male,45-54,R02,Individual,2022-01-09
+C01052,Kojo Boateng,Male,45-54,R03,Individual,2026-05-23
+C01053,Northstar Enterprises,,,R01,Small Business,2026-04-07
+C01054,Abena Tetteh,Male,18-24,R06,Individual,2021-07-24
+C01055,Efua Boateng,Male,45-54,R04,Individual,2021-02-03
+C01056,Daniel Antwi,Female,35-44,R03,Individual,2024-03-05
+C01057,Ama Sarpong,Female,35-44,R03,Individual,2025-06-10
+C01058,Efua Antwi,Female,25-34,R01,Individual,2023-07-29
+C01059,Michael Asare,Male,55+,R01,Individual,2023-08-14
+C01060,Linda Ofori,Female,25-34,R03,Individual,2026-01-31
+C01061,Akosua Boateng,Female,25-34,R03,Individual,2021-08-26
+C01062,Kojo Ofori,Male,45-54,R01,Individual,2023-05-21
+C01063,Joseph Appiah,Female,35-44,R06,Individual,2022-07-18
+C01064,Unity Trading,,,R04,Small Business,2024-03-17
+C01065,Adwoa Mensah,Male,45-54,R01,Individual,2022-06-02
+C01066,Prime Ventures,,,R05,Small Business,2025-12-07
+C01067,Esi Ofori,Female,35-44,R09,Individual,2021-10-20
+C01068,Evergreen Ventures,,,R03,Small Business,2025-10-29
+C01069,Evergreen Enterprises,,,R02,Corporate,2021-10-24
+C01070,Esi Agyeman,Male,55+,R01,Individual,2021-03-25
+C01071,Unity Services,,,R02,Small Business,2024-12-17
+C01072,Adu Limited,,,R04,Small Business,2025-03-26
+C01073,Daniel Tetteh,Female,18-24,R02,Individual,2022-01-13
+C01074,Daniel Agyeman,Female,45-54,R05,Individual,2025-01-31
+C01075,Akosua Quaye,Female,25-34,R02,Individual,2025-08-18
+C01076,Abena Asare,Male,55+,R09,Individual,2023-07-06
+C01077,Ama Quaye,Female,35-44,R08,Individual,2022-07-13
+C01078,Kwame Sarpong,Female,45-54,R02,Individual,2021-04-13
+C01079,Efua Owusu,Male,18-24,R03,Individual,2026-07-06
+C01080,Yaw Tetteh,Male,35-44,R01,Individual,2023-05-29
+C01081,Efua Agyeman,Female,18-24,R01,Individual,2026-03-11
+C01082,Joseph Antwi,Female,18-24,R07,Individual,2022-10-06
+C01083,Kofi Owusu,Female,35-44,R03,Individual,2022-05-17
+C01084,Efua Owusu,Male,18-24,R02,Individual,2023-12-08
+C01085,Kojo Tetteh,Male,55+,R02,Individual,2025-06-16
+C01086,Michael Mensah,Female,45-54,R09,Individual,2023-10-14
+C01087,K&K Limited,,,R03,Corporate,2022-01-29
+C01088,Abena Antwi,Female,25-34,R04,Individual,2026-08-09
+C01089,Prime Limited,,,R04,Small Business,2025-08-30
+C01090,Kwame Owusu,Male,35-44,R09,Individual,2023-06-17
+C01091,Abena Appiah,Male,35-44,R03,Individual,2025-06-27
+C01092,Daniel Owusu,Male,25-34,R09,Individual,2024-06-09
+C01093,Blue Sky Services,,,R02,Small Business,2025-08-28
+C01094,Nana Arthur,Female,25-34,R01,Individual,2025-12-21
+C01095,Linda Antwi,Male,18-24,R06,Individual,2023-09-17
+C01096,Mabel Boateng,Female,45-54,R02,Individual,2023-03-31
+C01097,Ama Tetteh,Female,25-34,R01,Individual,2024-06-20
+C01098,Prime Stores,,,R03,Small Business,2021-09-15
+C01099,Esi Appiah,Female,55+,R02,Individual,2021-04-02
+C01100,Unity Trading,,,R10,Small Business,2021-11-28
+C01101,Linda Agyeman,Male,18-24,R07,Individual,2023-05-07
+C01102,Linda Boateng,Female,18-24,R01,Individual,2023-09-21
+C01103,Akosua Arthur,Female,45-54,R01,Individual,2023-01-06
+C01104,Kwame Antwi,Male,45-54,R04,Individual,2021-12-14
+C01105,Kojo Tetteh,Female,55+,R05,Individual,2024-09-25
+C01106,Kwame Arthur,Male,45-54,R09,Individual,2021-08-01
+C01107,Kojo Mensah,Male,45-54,R05,Individual,2026-01-03
+C01108,Kwame Quaye,Male,45-54,R01,Individual,2023-01-29
+C01109,Nana Appiah,Male,35-44,R09,Individual,2022-10-09
+C01110,Linda Tetteh,Female,25-34,R02,Individual,2023-12-13
+C01111,Unity Enterprises,,,R02,Small Business,2024-08-06
+C01112,Akosua Asare,Female,45-54,R10,Individual,2026-10-11
+C01113,Kojo Owusu,Female,45-54,R01,Individual,2024-04-07
+C01114,Joseph Asare,Male,35-44,R01,Individual,2024-04-16
+C01115,Kwame Tetteh,Female,25-34,R03,Individual,2026-03-30
+C01116,Kwame Antwi,Male,55+,R01,Individual,2023-08-03
+C01117,Adwoa Ofori,Female,45-54,R06,Individual,2022-08-21
+C01118,Kwame Boateng,Male,25-34,R03,Individual,2025-05-05
+C01119,Adwoa Appiah,Male,55+,R01,Individual,2024-01-20
+C01120,Kwame Antwi,Female,18-24,R01,Individual,2021-02-06
+C01121,Nana Quaye,Female,18-24,R02,Individual,2021-06-26
+C01122,Daniel Ofori,Male,35-44,R04,Individual,2023-05-07
+C01123,Linda Tetteh,Female,45-54,R05,Individual,2023-09-09
+C01124,Michael Tetteh,Male,55+,R05,Individual,2026-04-07
+C01125,Kwame Asare,Female,18-24,R10,Individual,2021-12-04
+C01126,Kojo Antwi,Male,35-44,R01,Individual,2022-12-14
+C01127,Daniel Tetteh,Female,45-54,R03,Individual,2022-01-31
+C01128,Kojo Arthur,Male,55+,R01,Individual,2026-01-17
+C01129,Blue Sky Services,,,R01,Corporate,2026-03-10
+C01130,Michael Mensah,Female,35-44,R01,Individual,2023-09-25
+C01131,Daniel Tetteh,Female,55+,R08,Individual,2025-07-22
+C01132,Northstar Ventures,,,R01,Corporate,2022-07-03
+C01133,Efua Tetteh,Female,55+,R03,Individual,2024-10-03
+C01134,Nana Arthur,Female,18-24,R01,Individual,2025-01-04
+C01135,Adwoa Asare,Male,35-44,R04,Individual,2026-09-19
+C01136,Joseph Owusu,Male,45-54,R03,Individual,2022-02-18
+C01137,Esi Boateng,Female,25-34,R05,Individual,2025-06-20
+C01138,Efua Mensah,Male,55+,R09,Individual,2025-03-10
+C01139,Nana Sarpong,Female,55+,R01,Individual,2025-03-03
+C01140,Michael Ofori,Male,55+,R04,Individual,2022-07-30
+C01141,Mabel Ofori,Male,18-24,R08,Individual,2024-09-13
+C01142,Akosua Appiah,Female,45-54,R03,Individual,2026-10-17
+C01143,Ama Agyeman,Male,45-54,R01,Individual,2021-04-27
+C01144,Daniel Antwi,Female,18-24,R08,Individual,2025-10-06
+C01145,Kofi Appiah,Male,25-34,R03,Individual,2023-05-28
+C01146,Linda Ofori,Female,18-24,R03,Individual,2024-12-28
+C01147,Daniel Quaye,Male,55+,R02,Individual,2024-01-25
+C01148,Kwame Owusu,Male,45-54,R01,Individual,2021-06-01
+C01149,Abena Arthur,Male,55+,R06,Individual,2021-09-05
+C01150,Nana Antwi,Male,35-44,R02,Individual,2021-10-28
+C01151,Michael Appiah,Female,18-24,R07,Individual,2026-10-31
+C01152,Mawuli Enterprises,,,R01,Small Business,2022-06-08
+C01153,Linda Quaye,Male,25-34,R01,Individual,2024-02-08
+C01154,Prime Enterprises,,,R03,Small Business,2021-06-06
+C01155,Esi Boateng,Male,55+,R02,Individual,2021-07-31
+C01156,Unity Stores,,,R03,Small Business,2021-11-16
+C01157,Yaw Antwi,Female,55+,R01,Individual,2026-02-05
+C01158,Abena Asare,Male,45-54,R01,Individual,2026-09-11
+C01159,Linda Asare,Female,18-24,R02,Individual,2025-02-01
+C01160,Nana Agyeman,Male,35-44,R07,Individual,2021-07-13
+C01161,K&K Stores,,,R04,Small Business,2024-09-19
+C01162,Akosua Sarpong,Male,45-54,R06,Individual,2023-04-17
+C01163,Esi Agyeman,Male,45-54,R03,Individual,2026-09-07
+C01164,K&K Stores,,,R05,Small Business,2026-08-10
+C01165,Joseph Quaye,Male,25-34,R01,Individual,2022-03-22
+C01166,Adwoa Agyeman,Female,25-34,R02,Individual,2025-04-30
+C01167,Akosua Arthur,Male,55+,R02,Individual,2023-02-18
+C01168,Kwame Owusu,Female,45-54,R03,Individual,2026-10-11
+C01169,Esi Boateng,Female,25-34,R02,Individual,2021-10-03
+C01170,Ama Tetteh,Male,55+,R09,Individual,2022-02-23
+C01171,Michael Mensah,Male,18-24,R01,Individual,2025-09-25
+C01172,Prime Enterprises,,,R02,Small Business,2025-01-09
+C01173,Adwoa Asare,Male,25-34,R03,Individual,2024-03-28
+C01174,Unity Enterprises,,,R03,Corporate,2025-11-15
+C01175,Joseph Owusu,Female,25-34,R01,Individual,2026-08-11
+C01176,Unity Trading,,,R06,Small Business,2022-03-12
+C01177,Kofi Agyeman,Female,45-54,R10,Individual,2025-03-23
+C01178,Adwoa Appiah,Female,35-44,R01,Individual,2025-01-11
+C01179,Blue Sky Services,,,R03,Corporate,2025-03-02
+C01180,Efua Agyeman,Female,25-34,R02,Individual,2021-08-27
+C01181,Blue Sky Enterprises,,,R04,Corporate,2022-04-16
+C01182,Prime Ventures,,,R02,Small Business,2022-07-23
+C01183,Prime Stores,,,R01,Small Business,2024-01-24
+C01184,Kojo Appiah,Female,25-34,R04,Individual,2023-04-23
+C01185,Daniel Sarpong,Male,55+,R02,Individual,2022-02-03
+C01186,Mabel Antwi,Female,55+,R04,Individual,2022-11-12
+C01187,Nana Tetteh,Male,35-44,R02,Individual,2023-02-13
+C01188,Mabel Quaye,Male,45-54,R02,Individual,2024-10-08
+C01189,Evergreen Trading,,,R02,Small Business,2021-08-06
+C01190,Unity Services,,,R01,Small Business,2023-07-10
+C01191,Ama Appiah,Female,35-44,R07,Individual,2025-03-20
+C01192,Kwame Sarpong,Male,55+,R06,Individual,2025-01-21
+C01193,Northstar Limited,,,R10,Small Business,2024-08-05
+C01194,Mawuli Enterprises,,,R01,Small Business,2021-11-05
+C01195,Yaw Owusu,Male,45-54,R02,Individual,2024-02-03
+C01196,Abena Boateng,Male,45-54,R04,Individual,2025-09-30
+C01197,Nana Antwi,Male,25-34,R06,Individual,2022-07-07
+C01198,Mabel Antwi,Female,45-54,R01,Individual,2025-08-17
+C01199,Blue Sky Ventures,,,R02,Corporate,2023-11-25
+C01200,Kwame Antwi,Male,25-34,R05,Individual,2021-05-09
+C01201,Efua Arthur,female,18-24,R01,Individual,2022-08-07
+C01202,Mabel Arthur,Male,55+,R03,Individual,2024-02-12
+C01203,Prime Services,,,R08,Small Business,2022-09-03
+C01204,Kofi Tetteh,Female,45-54,R02,Individual,2021-12-26
+C01205,Linda Arthur,Male,45-54,R04,Individual,2024-05-28
+C01206,Adu Ventures,,,R01,Small Business,2023-12-02
+C01207,Daniel Appiah,Female,25-34,R09,Individual,2022-06-09
+C01208,Blue Sky Limited,,,R08,Small Business,2021-02-02
+C01209,Blue Sky Services,,,R02,Small Business,2022-06-17
+C01210,Michael Appiah,Male,25-34,R01,Individual,2022-01-01
+C01211,Nana Owusu,Male,45-54,R02,Individual,2025-07-12
+C01212,Nana Owusu,Male,18-24,R05,Individual,2022-06-16
+C01213,Mabel Sarpong,Male,55+,R02,Individual,2025-03-25
+C01214,Unity Limited,,,R08,Small Business,2024-08-31
+C01215,Efua Ofori,Male,55+,R01,Individual,2021-02-19
+C01216,Evergreen Stores,,,R04,Corporate,2026-07-20
+C01217,Nana Tetteh,Male,18-24,R01,Individual,2024-04-02
+C01218,Michael Agyeman,Female,25-34,R04,Individual,2026-08-29
+C01219,Evergreen Trading,,,R07,Small Business,2024-01-28
+C01220,Esi Ofori,Female,55+,R04,Individual,2026-02-26
+C01221,Mabel Quaye,Female,45-54,R01,Individual,2026-07-31
+C01222,Kwame Asare,Male,18-24,R05,Individual,2025-01-22
+C01223,Blue Sky Stores,,,R07,Small Business,2021-08-17
+C01224,Prime Ventures,,,R05,Small Business,2021-04-05
+C01225,Evergreen Stores,,,R01,Small Business,2021-12-11
+C01226,Nana Tetteh,Female,35-44,R03,Individual,2023-08-12
+C01227,Northstar Trading,,,R09,Corporate,2023-08-25
+C01228,Evergreen Stores,,,R04,Small Business,2021-09-19
+C01229,Adu Limited,,,R05,Small Business,2023-12-15
+C01230,Northstar Limited,,,R02,Small Business,2022-08-04
+C01231,Prime Services,,,R07,Small Business,2026-03-02
+C01232,Akosua Quaye,Female,25-34,R02,Individual,2024-03-30
+C01233,Kojo Tetteh,Female,25-34,R08,Individual,2024-10-30
+C01234,Mabel Asare,Male,55+,R01,Individual,2025-10-22
+C01235,Michael Mensah,Male,55+,R10,Individual,2021-10-26
+C01236,Northstar Enterprises,,,R06,Small Business,2025-03-25
+C01237,Abena Owusu,Male,25-34,R03,Individual,2022-03-19
+C01238,Mawuli Trading,,,R07,Small Business,2021-04-14
+C01239,Mawuli Ventures,,,R02,Small Business,2023-02-05
+C01240,Northstar Enterprises,,,R04,Small Business,2024-11-05
+C01241,Abena Asare,Female,35-44,R02,Individual,2024-05-07
+C01242,Northstar Enterprises,,,R02,Small Business,2025-04-14
+C01243,Michael Mensah,Male,35-44,R04,Individual,2024-04-22
+C01244,Nana Appiah,Female,35-44,R01,Individual,2021-04-06
+C01245,Adu Trading,,,R03,Small Business,2024-03-07
+C01246,Prime Ventures,,,R05,Small Business,2025-04-10
+C01247,Esi Arthur,Male,35-44,R06,Individual,2025-11-04
+C01248,Kwame Owusu,Female,25-34,R04,Individual,2026-02-21
+C01249,Kwame Sarpong,Female,25-34,R05,Individual,2024-12-28
+C01250,Daniel Antwi,Male,35-44,R04,Individual,2026-03-19
+C01251,Kojo Appiah,Female,55+,R01,Individual,2022-10-28
+C01252,Esi Arthur,Female,35-44,R07,Individual,2021-04-03
+C01253,Nana Quaye,Male,35-44,R03,Individual,2025-02-02
+C01254,Daniel Asare,Female,35-44,R03,Individual,2025-09-23
+C01255,Joseph Agyeman,Male,25-34,R02,Individual,2026-01-10
+C01256,Evergreen Services,,,R02,Corporate,2024-09-26
+C01257,Yaw Tetteh,Female,55+,R03,Individual,2024-01-12
+C01258,Adwoa Tetteh,Male,35-44,R02,Individual,2024-07-10
+C01259,Kofi Quaye,Male,45-54,R03,Individual,2023-06-19
+C01260,Abena Appiah,Female,45-54,R04,Individual,2025-03-18
+C01261,Michael Arthur,Female,45-54,R06,Individual,2023-08-05
+C01262,Joseph Sarpong,Female,25-34,R02,Individual,2022-10-11
+C01263,Kofi Agyeman,Female,35-44,R04,Individual,2024-05-23
+C01264,Ama Boateng,Female,35-44,R05,Individual,2022-05-05
+C01265,Adwoa Sarpong,Female,35-44,R01,Individual,2022-05-07
+C01266,Daniel Mensah,Male,45-54,R02,Individual,2021-09-03
+C01267,Unity Enterprises,,,R01,Small Business,2022-11-13
+C01268,Mawuli Enterprises,,,R02,Corporate,2023-11-20
+C01269,Abena Tetteh,Female,45-54,R01,Individual,2026-03-22
+C01270,Joseph Sarpong,Male,45-54,R01,Individual,2026-10-15
+C01271,Esi Sarpong,Male,55+,R03,Individual,2025-05-16
+C01272,Kwame Antwi,Female,18-24,R02,Individual,2025-11-23
+C01273,K&K Limited,,,R06,Corporate,2025-03-17
+C01274,Linda Owusu,Female,35-44,R02,Individual,2024-02-21
+C01275,Adwoa Ofori,Male,35-44,R04,Individual,2024-01-21
+C01276,Northstar Stores,,,R01,Small Business,2025-02-19
+C01277,Blue Sky Ventures,,,R06,Corporate,2023-11-13
+C01278,Efua Agyeman,Female,18-24,R01,Individual,2025-03-20
+C01279,Esi Tetteh,Female,25-34,R10,Individual,2023-05-11
+C01280,Kwame Sarpong,Female,55+,R10,Individual,2026-05-27
+C01281,Joseph Ofori,Female,18-24,R01,Individual,2025-05-23
+C01282,Kwame Ofori,Male,45-54,R05,Individual,2023-06-09
+C01283,Northstar Stores,,,R04,Corporate,2021-06-18
+C01284,Kofi Boateng,Male,35-44,R01,Individual,2022-06-29
+C01285,Unity Trading,,,R04,Small Business,2026-10-19
+C01286,Kofi Asare,Male,35-44,R06,Individual,2023-07-05
+C01287,Nana Agyeman,Male,18-24,R04,Individual,2023-06-24
+C01288,Abena Mensah,Male,25-34,R06,Individual,2022-01-18
+C01289,Ama Antwi,Female,25-34,R01,Individual,2025-09-22
+C01290,Esi Antwi,Female,55+,R10,Individual,2023-04-15
+C01291,Kofi Arthur,Male,55+,R02,Individual,2025-03-11
+C01292,Esi Antwi,Female,25-34,R08,Individual,2022-06-05
+C01293,Michael Asare,Male,45-54,R07,Individual,2024-01-22
+C01294,Linda Sarpong,Male,18-24,R02,Individual,2024-04-02
+C01295,Ama Appiah,Male,55+,R07,Individual,2021-08-20
+C01296,Daniel Agyeman,Male,18-24,R08,Individual,2024-03-11
+C01297,Linda Quaye,Male,18-24,R01,Individual,2021-03-03
+C01298,Kofi Tetteh,Male,55+,R04,Individual,2023-02-05
+C01299,Joseph Owusu,Female,45-54,R02,Individual,2026-07-24
+C01300,Daniel Mensah,Male,35-44,R06,Individual,2022-09-12
+C01301,Prime Services,,,R04,Small Business,2025-06-27
+C01302,Mawuli Stores,,,R01,Small Business,2024-02-03
+C01303,Efua Asare,Female,35-44,R03,Individual,2026-04-20
+C01304,Adu Trading,,,R04,Small Business,2024-03-04
+C01305,Daniel Sarpong,Male,35-44,R02,Individual,2022-02-19
+C01306,Akosua Mensah,Female,35-44,R02,Individual,2025-11-11
+C01307,Kojo Owusu,Female,18-24,R01,Individual,2025-04-19
+C01308,Efua Mensah,Male,25-34,R09,Individual,2022-01-20
+C01309,Kwame Sarpong,Male,45-54,R01,Individual,2023-11-19
+C01310,Unity Trading,,,R08,Small Business,2024-09-02
+C01311,Esi Quaye,Male,18-24,R05,Individual,2021-09-08
+C01312,Efua Quaye,Female,35-44,R09,Individual,2025-11-08
+C01313,Prime Stores,,,R08,Small Business,2022-03-21
+C01314,Adu Limited,,,R04,Small Business,2024-10-29
+C01315,Kofi Tetteh,Male,45-54,R05,Individual,2025-02-01
+C01316,Kojo Arthur,Male,18-24,R06,Individual,2021-01-19
+C01317,Yaw Quaye,Female,55+,R01,Individual,2022-01-01
+C01318,Yaw Tetteh,Male,55+,R03,Individual,2022-10-29
+C01319,Abena Tetteh,Male,35-44,R03,Individual,2026-08-11
+C01320,Mabel Appiah,Male,18-24,R09,Individual,2023-03-04
+C01321,Linda Agyeman,Female,35-44,R02,Individual,2026-09-05
+C01322,Joseph Owusu,Female,18-24,R05,Individual,2021-01-05
+C01323,Ama Agyeman,Female,45-54,R01,Individual,2021-01-07
+C01324,Linda Asare,Female,55+,R07,Individual,2024-09-09
+C01325,Mawuli Enterprises,,,R04,Small Business,2024-10-03
+C01326,Efua Arthur,Female,25-34,R02,Individual,2025-05-08
+C01327,Nana Antwi,Female,18-24,R04,Individual,2021-12-20
+C01328,Michael Arthur,Female,18-24,R01,Individual,2022-06-16
+C01329,Ama Boateng,Male,35-44,R05,Individual,2025-06-16
+C01330,Joseph Arthur,Male,35-44,R09,Individual,2021-01-25
+C01331,K&K Ventures,,,R09,Corporate,2021-08-20
+C01332,Mawuli Limited,,,R04,Small Business,2024-06-13
+C01333,Adwoa Sarpong,Female,55+,R08,Individual,2025-07-23
+C01334,Kojo Owusu,Male,18-24,R04,Individual,2024-08-16
+C01335,Ama Sarpong,Female,25-34,R02,Individual,2024-03-04
+C01336,Michael Ofori,Male,18-24,R06,Individual,2021-02-26
+C01337,Akosua Owusu,Male,35-44,R08,Individual,2024-04-04
+C01338,Northstar Trading,,,R07,Corporate,2026-05-25
+C01339,Ama Quaye,Female,18-24,R03,Individual,2024-10-09
+C01340,Prime Enterprises,,,R02,Small Business,2025-02-28
+C01341,Adwoa Appiah,Female,35-44,R01,Individual,2026-01-11
+C01342,K&K Ventures,,,R03,Small Business,2024-09-10
+C01343,Michael Quaye,Female,25-34,R07,Individual,2021-11-13
+C01344,Adwoa Tetteh,Male,45-54,R08,Individual,2025-07-12
+C01345,Nana Sarpong,Male,18-24,R03,Individual,2023-05-22
+C01346,Mabel Asare,Male,55+,R04,Individual,2024-03-09
+C01347,Kojo Arthur,Female,55+,R02,Individual,2025-09-23
+C01348,Akosua Agyeman,Male,25-34,R01,Individual,2022-03-24
+C01349,Yaw Tetteh,Female,45-54,R01,Individual,2025-10-05
+C01350,Adu Services,,,R04,Corporate,2023-07-01
+C01351,Mabel Boateng,Male,35-44,R01,Individual,2025-04-24
+C01352,Michael Antwi,Female,35-44,R01,Individual,2022-01-14
+C01353,Daniel Quaye,Male,35-44,R02,Individual,2023-11-12
+C01354,Prime Ventures,,,R01,Small Business,2024-07-26
+C01355,Yaw Mensah,Female,25-34,R01,Individual,2024-02-25
+C01356,Michael Agyeman,Female,18-24,R07,Individual,2025-11-11
+C01357,Mabel Appiah,Male,18-24,R01,Individual,2026-03-15
+C01358,Kojo Quaye,Female,45-54,R02,Individual,2024-04-16
+C01359,Kwame Boateng,Female,35-44,R02,Individual,2022-01-11
+C01360,Esi Arthur,Female,25-34,R04,Individual,2024-09-29
+C01361,Kojo Mensah,Female,55+,R08,Individual,2023-07-01
+C01362,Efua Mensah,Male,55+,R02,Individual,2026-12-04
+C01363,Kwame Arthur,Female,25-34,R03,Individual,2026-01-08
+C01364,Yaw Antwi,Female,35-44,R02,Individual,2025-08-02
+C01365,Nana Boateng,Male,35-44,R05,Individual,2026-05-25
+C01366,Evergreen Enterprises,,,R02,Corporate,2021-01-18
+C01367,Abena Owusu,Female,45-54,R07,Individual,2024-06-08
+C01368,Nana Mensah,Female,25-34,R03,Individual,2025-07-27
+C01369,Unity Stores,,,R02,Corporate,2024-02-07
+C01370,Unity Ventures,,,R08,Corporate,2022-03-24
+C01371,Akosua Appiah,Male,55+,R01,Individual,2023-06-24
+C01372,Kojo Owusu,Female,55+,R08,Individual,2024-03-17
+C01373,K&K Ventures,,,R09,Small Business,2021-09-25
+C01374,Mawuli Ventures,,,R06,Small Business,2022-07-16
+C01375,Mawuli Limited,,,R01,Small Business,2025-10-31
+C01376,Akosua Owusu,Female,18-24,R01,Individual,2023-11-28
+C01377,Joseph Quaye,Female,18-24,R01,Individual,2025-02-26
+C01378,K&K Ventures,,,R01,Small Business,2025-02-02
+C01379,Evergreen Stores,,,R03,Small Business,2025-04-11
+C01380,Kofi Tetteh,Female,55+,R08,Individual,2024-07-06
+C01381,Joseph Sarpong,Male,18-24,R03,Individual,2026-01-26
+C01382,Kojo Appiah,Male,35-44,R09,Individual,2024-08-12
+C01383,Akosua Mensah,Male,25-34,R01,Individual,2021-05-17
+C01384,Ama Mensah,Male,55+,R06,Individual,2026-04-25
+C01385,Daniel Antwi,Male,18-24,R01,Individual,2026-05-30
+C01386,Northstar Trading,,,R03,Small Business,2022-06-30
+C01387,Unity Services,,,R01,Small Business,2025-01-05
+C01388,Prime Enterprises,,,R10,Small Business,2023-08-08
+C01389,Kojo Agyeman,Female,35-44,R04,Individual,2021-07-09
+C01390,Esi Owusu,Male,55+,R02,Individual,2023-05-05
+C01391,Abena Arthur,Male,25-34,R06,Individual,2024-01-03
+C01392,Prime Limited,,,R01,Corporate,2025-11-15
+C01393,Esi Tetteh,Male,55+,R03,Individual,2023-08-17
+C01394,Mabel Mensah,Male,25-34,R03,Individual,2025-04-28
+C01395,Efua Quaye,Male,18-24,R01,Individual,2021-01-19
+C01396,Unity Trading,,,R09,Small Business,2025-04-23
+C01397,Prime Services,,,R01,Small Business,2026-09-30
+C01398,Unity Services,,,R09,Small Business,2022-06-13
+C01399,Kojo Antwi,Female,25-34,R03,Individual,2026-08-09
+C01400,Mawuli Ventures,,,R01,Corporate,2021-08-24
+C01401,Joseph Quaye,Male,18-24,R01,Individual,2021-07-03
+C01402,Yaw Owusu,Female,35-44,R06,Individual,2026-05-18
+C01403,Kofi Mensah,Female,45-54,R01,Individual,2023-11-19
+C01404,Kofi Mensah,Female,55+,R09,Individual,2026-03-16
+C01405,Abena Sarpong,Male,45-54,R02,Individual,2026-09-18
+C01406,Adwoa Sarpong,Male,18-24,R03,Individual,2021-06-19
+C01407,Nana Mensah,Male,25-34,R05,Individual,2026-02-01
+C01408,K&K Enterprises,,,R02,Corporate,2024-12-31
+C01409,Linda Tetteh,Female,25-34,R01,Individual,2022-12-08
+C01410,Michael Quaye,Female,35-44,R05,Individual,2022-11-19
+C01411,Esi Antwi,Female,35-44,R02,Individual,2025-10-15
+C01412,Prime Ventures,,,R05,Small Business,2024-10-15
+C01413,Michael Antwi,Male,55+,R01,Individual,2026-12-09
+C01414,Akosua Mensah,Female,18-24,R05,Individual,2024-09-03
+C01415,Mabel Mensah,Male,25-34,R02,Individual,2026-02-11
+C01416,Nana Appiah,Female,45-54,R01,Individual,2023-08-20
+C01417,Linda Owusu,Male,25-34,R03,Individual,2025-09-05
+C01418,Joseph Tetteh,Female,55+,R01,Individual,2025-12-30
+C01419,Akosua Owusu,Female,55+,R08,Individual,2021-01-16
+C01420,Unity Ventures,,,R01,Small Business,2026-05-10
+C01421,Unity Enterprises,,,R06,Small Business,2023-12-08
+C01422,Adu Stores,,,R10,Small Business,2024-07-25
+C01423,Joseph Asare,Female,35-44,R09,Individual,2023-05-04
+C01424,Mawuli Limited,,,R01,Small Business,2022-07-02
+C01425,Kwame Ofori,Female,55+,R03,Individual,2026-03-07
+C01426,Adwoa Ofori,Male,18-24,R07,Individual,2023-01-26
+C01427,Northstar Stores,,,R01,Small Business,2022-02-13
+C01428,Adu Enterprises,,,R02,Small Business,2023-07-31
+C01429,Efua Mensah,Female,45-54,R07,Individual,2025-06-20
+C01430,Linda Ofori,Female,35-44,R05,Individual,2023-11-04
+C01431,Joseph Sarpong,Male,45-54,R05,Individual,2024-07-29
+C01432,Mabel Appiah,Female,45-54,R01,Individual,2023-05-18
+C01433,Nana Boateng,Male,55+,R04,Individual,2021-02-04
+C01434,Mawuli Limited,,,R04,Corporate,2025-03-14
+C01435,Linda Mensah,Male,18-24,R05,Individual,2026-11-13
+C01436,Northstar Services,,,R03,Small Business,2026-09-30
+C01437,K&K Enterprises,,,R09,Small Business,2025-06-24
+C01438,Daniel Mensah,Male,18-24,R05,Individual,2022-02-11
+C01439,Esi Owusu,Male,18-24,R01,Individual,2021-03-09
+C01440,Michael Boateng,Female,18-24,R01,Individual,2022-02-16
+C01441,Linda Antwi,Male,25-34,R02,Individual,2021-08-23
+C01442,Esi Asare,Female,45-54,R06,Individual,2021-07-08
+C01443,Abena Agyeman,Female,18-24,R04,Individual,2022-08-12
+C01444,Abena Tetteh,Female,25-34,R01,Individual,2022-11-07
+C01445,Akosua Quaye,Male,18-24,R04,Individual,2022-08-08
+C01446,Kofi Tetteh,Male,35-44,R05,Individual,2024-04-15
+C01447,Adwoa Mensah,Female,45-54,R01,Individual,2026-05-06
+C01448,Efua Quaye,Male,35-44,R02,Individual,2023-06-08
+C01449,Mabel Sarpong,Male,35-44,R10,Individual,2025-07-07
+C01450,K&K Ventures,,,R01,Small Business,2022-02-16
+C01451,Nana Asare,Male,45-54,R02,Individual,2025-04-26
+C01452,Yaw Quaye,Female,55+,R01,Individual,2023-04-29
+C01453,Yaw Agyeman,Male,25-34,R03,Individual,2023-01-12
+C01454,K&K Trading,,,R01,Corporate,2022-12-29
+C01455,Efua Appiah,Male,45-54,R04,Individual,2021-02-27
+C01456,Michael Appiah,Female,55+,R02,Individual,2021-10-17
+C01457,Kwame Boateng,Male,45-54,R05,Individual,2023-02-24
+C01458,Unity Enterprises,,,R02,Small Business,2022-12-31
+C01459,Daniel Sarpong,Female,18-24,R06,Individual,2021-04-03
+C01460,Blue Sky Limited,,,R05,Small Business,2026-06-12
+C01461,Linda Tetteh,Male,35-44,R03,Individual,2025-12-22
+C01462,Ama Owusu,Male,18-24,R10,Individual,2025-10-03
+C01463,Kofi Mensah,Male,45-54,R02,Individual,2022-02-17
+C01464,Prime Ventures,,,R02,Corporate,2023-12-26
+C01465,Michael Appiah,Female,18-24,R01,Individual,2024-07-01
+C01466,Akosua Sarpong,Male,25-34,R01,Individual,2023-01-18
+C01467,Blue Sky Limited,,,R06,Small Business,2022-08-29
+C01468,Kwame Antwi,Female,25-34,R09,Individual,2022-07-28
+C01469,Linda Ofori,Female,35-44,R02,Individual,2025-03-02
+C01470,Kwame Antwi,Male,25-34,R04,Individual,2026-11-05
+C01471,Joseph Agyeman,Male,35-44,R03,Individual,2026-07-31
+C01472,Evergreen Ventures,,,R06,Small Business,2024-10-13
+C01473,Daniel Owusu,Female,55+,R01,Individual,2026-10-06
+C01474,Abena Tetteh,Male,18-24,R01,Individual,2025-07-05
+C01475,Kwame Ofori,Female,55+,R01,Individual,2023-06-21
+C01476,Michael Appiah,Female,45-54,R09,Individual,2023-10-31
+C01477,Kojo Owusu,Female,55+,R03,Individual,2021-01-11
+C01478,Nana Tetteh,Female,18-24,R06,Individual,2024-11-30
+C01479,Linda Mensah,Male,55+,R04,Individual,2025-02-21
+C01480,Yaw Quaye,Male,55+,R01,Individual,2025-03-12
+C01481,Yaw Boateng,Female,35-44,R09,Individual,2025-10-13
+C01482,Esi Boateng,Female,35-44,R02,Individual,2021-05-24
+C01483,Ama Ofori,Female,18-24,R02,Individual,2022-01-22
+C01484,Blue Sky Trading,,,R04,Corporate,2024-05-12
+C01485,Mabel Mensah,Female,45-54,R01,Individual,2021-10-23
+C01486,Efua Sarpong,Female,45-54,R04,Individual,2023-10-11
+C01487,Blue Sky Enterprises,,,R04,Small Business,2026-02-17
+C01488,Northstar Trading,,,R03,Small Business,2024-02-08
+C01489,Akosua Asare,Male,45-54,R01,Individual,2021-09-09
+C01490,Michael Mensah,Male,55+,R10,Individual,2023-03-26
+C01491,Efua Antwi,Female,55+,R03,Individual,2021-03-30
+C01492,Michael Asare,Female,35-44,R01,Individual,2021-01-31
+C01493,Kofi Tetteh,Female,18-24,R05,Individual,2021-10-21
+C01494,Unity Limited,,,R01,Small Business,2023-10-12
+C01495,Kojo Mensah,Male,55+,R01,Individual,2026-06-27
+C01496,Akosua Quaye,Female,25-34,R01,Individual,2026-01-13
+C01497,Adwoa Sarpong,Female,25-34,R04,Individual,2026-02-15
+C01498,Ama Sarpong,Female,55+,R01,Individual,2022-08-17
+C01499,Kwame Quaye,Male,18-24,R06,Individual,2026-06-12
+C01500,Adwoa Sarpong,Female,25-34,R01,Individual,2026-01-28

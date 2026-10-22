@@ -1,0 +1,44 @@
+table Regions
+	lineageTag: b3c94b5b-e6bb-418f-aff4-b606b812393c
+
+	column RegionID
+		dataType: string
+		lineageTag: 2b45e9a4-2411-4022-a784-9b0ba2323469
+		summarizeBy: none
+		sourceColumn: RegionID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column RegionName
+		dataType: string
+		lineageTag: 8a55d83b-e57d-4011-9dd9-96d037d0bfa5
+		summarizeBy: none
+		sourceColumn: RegionName
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Zone
+		dataType: string
+		lineageTag: 8446ba9c-50c7-4106-a4d9-8dc7134528aa
+		summarizeBy: none
+		sourceColumn: Zone
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Regions = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents(pDataFolder & "\regions.csv"), [Delimiter = ",", Columns = 3, Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+				  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true])
+				in
+				  #"Promoted headers"
+
+	annotation PBI_ResultType = Table
+
